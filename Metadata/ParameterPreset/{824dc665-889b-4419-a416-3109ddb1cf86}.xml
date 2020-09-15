@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{824dc665-889b-4419-a416-3109ddb1cf86}">
+		<property name="name">
+			<value>VO_Affect</value>
+		</property>
+		<relationship name="folder">
+			<destination>{fed8f095-937e-45ee-884d-bfcf38a6b348}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6ad13007-c2e7-43ba-9e6b-a5f32195b464}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6ad13007-c2e7-43ba-9e6b-a5f32195b464}">
+		<property name="maximum">
+			<value>6</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

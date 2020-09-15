@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{006c1343-7b6b-4fdc-9a74-3a1d3d767139}">
+		<property name="name">
+			<value>VO_HurtIntensity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{fed8f095-937e-45ee-884d-bfcf38a6b348}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{0ef9c7cb-abc6-4de6-8ba0-f4562789e349}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{0ef9c7cb-abc6-4de6-8ba0-f4562789e349}">
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

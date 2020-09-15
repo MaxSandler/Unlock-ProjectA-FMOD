@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{2db82242-3f6c-4b2e-949b-43a09f386652}">
+		<property name="name">
+			<value>UI_LootDrop_Level</value>
+		</property>
+		<relationship name="folder">
+			<destination>{fed8f095-937e-45ee-884d-bfcf38a6b348}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{7e07f32e-87a2-41fb-be60-1a9d1e63e1ae}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{7e07f32e-87a2-41fb-be60-1a9d1e63e1ae}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{ba0370e2-7978-454b-90fc-df2a1bdaa0fb}">
+		<property name="name">
+			<value>VO_AttackIntensity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{fed8f095-937e-45ee-884d-bfcf38a6b348}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{f95ff730-3e19-4cfa-8bdd-bff0cc25bd51}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{f95ff730-3e19-4cfa-8bdd-bff0cc25bd51}">
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
