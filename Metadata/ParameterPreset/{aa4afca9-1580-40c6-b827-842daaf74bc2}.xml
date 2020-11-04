@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{aa4afca9-1580-40c6-b827-842daaf74bc2}">
+		<property name="name">
+			<value>Superboss</value>
+		</property>
+		<relationship name="folder">
+			<destination>{fed8f095-937e-45ee-884d-bfcf38a6b348}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{496913c8-0f3b-4919-aabf-6075c8271423}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{496913c8-0f3b-4919-aabf-6075c8271423}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
