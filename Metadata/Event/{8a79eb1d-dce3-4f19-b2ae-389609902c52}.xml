@@ -4,7 +4,6 @@
 		<property name="name">
 			<value>Snakey_Teleport_In</value>
 		</property>
-		<property name="note" />
 		<property name="outputFormat">
 			<value>2</value>
 		</property>
@@ -54,7 +53,7 @@
 			<destination>{8cf94d5b-b284-436c-98f4-a06c5873d097}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{20b7dba2-583d-4afe-b1ba-a44ad34b7bd1}</destination>
+			<destination>{f4493e06-2502-492c-bdd0-423a54453acd}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{daa662b2-2002-4f9e-b6aa-bd8098499dd9}" />

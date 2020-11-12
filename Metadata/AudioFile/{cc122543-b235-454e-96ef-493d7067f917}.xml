@@ -4,6 +4,9 @@
 		<property name="assetPath">
 			<value>UI_Tab_From_Left.wav</value>
 		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
 		</property>

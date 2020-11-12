@@ -4,6 +4,9 @@
 		<property name="assetPath">
 			<value>Boss_Intro-148bpm.wav</value>
 		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
 		</property>
