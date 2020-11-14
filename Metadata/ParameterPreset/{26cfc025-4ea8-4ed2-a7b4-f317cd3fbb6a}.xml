@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="ParameterPreset" id="{3e0fe506-8902-4381-9a7f-a7e54bbc3660}">
+	<object class="ParameterPreset" id="{26cfc025-4ea8-4ed2-a7b4-f317cd3fbb6a}">
 		<property name="name">
-			<value>L-R Direction</value>
+			<value>Parameter 1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{fed8f095-937e-45ee-884d-bfcf38a6b348}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{e93759a8-c8cf-4ce3-b3fb-1afebe78a0d0}</destination>
+			<destination>{54728a2d-10c7-4e1b-92b8-622d27c5a585}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{e93759a8-c8cf-4ce3-b3fb-1afebe78a0d0}">
+	<object class="GameParameter" id="{54728a2d-10c7-4e1b-92b8-622d27c5a585}">
 		<property name="parameterType">
 			<value>2</value>
 		</property>
@@ -19,8 +19,8 @@
 			<value>2</value>
 		</property>
 		<property name="enumerationLabels">
-			<value>LTR</value>
-			<value>RTL</value>
+			<value>Off</value>
+			<value>On</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>
