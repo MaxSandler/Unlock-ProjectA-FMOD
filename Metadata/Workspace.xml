@@ -2,7 +2,10 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Workspace" id="{4b36e098-a51f-455c-b924-3531039cc2d8}">
 		<property name="builtBanksOutputDirectory">
-			<value>../Arnot/Content/FMOD</value>
+			<value>../../UE4/Arnot/Arnot/Content/FMOD</value>
+		</property>
+		<property name="builtBanksSeparateAssets">
+			<value>true</value>
 		</property>
 		<relationship name="masterEventFolder">
 			<destination>{5c75aa07-dae1-4616-b03c-9eafba7e63e4}</destination>
