@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{33b169b3-d284-4aaf-b143-de816a86c3e9}">
+		<property name="name">
+			<value>Serena_Grunts</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{9b8cbc45-d610-4192-bf74-61a6c9a2cf16}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{775cf086-ad8f-4f59-8aa1-3b41c8b9b407}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1f5d7670-2a61-40dc-b5c4-91f8cf04c2e5}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{9b8cbc45-d610-4192-bf74-61a6c9a2cf16}">
+		<relationship name="effects">
+			<destination>{2726f8d3-16e9-466d-bc8f-179f4f6b8e94}</destination>
+			<destination>{ebeffc71-1ce0-4c6e-a00e-b487f554a573}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{775cf086-ad8f-4f59-8aa1-3b41c8b9b407}" />
+	<object class="MixerBusFader" id="{2726f8d3-16e9-466d-bc8f-179f4f6b8e94}" />
+	<object class="CompressorEffect" id="{ebeffc71-1ce0-4c6e-a00e-b487f554a573}">
+		<relationship name="sidechains">
+			<destination>{f9b4cd54-6b9f-4023-9a0c-9092c3d23e3a}</destination>
+		</relationship>
+	</object>
+</objects>

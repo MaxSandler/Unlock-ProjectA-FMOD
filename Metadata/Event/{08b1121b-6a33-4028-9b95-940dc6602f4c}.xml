@@ -5,7 +5,7 @@
 			<value>UI_BrightSelect</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{11b658aa-75dc-4cf3-af98-498bec1040e2}</destination>
@@ -113,7 +113,6 @@
 	<object class="MixerBusEffectChain" id="{92671c41-cb42-493a-8022-1fde33231999}">
 		<relationship name="effects">
 			<destination>{0774c8e9-6a8b-42c6-9eda-a33638417a8a}</destination>
-			<destination>{e63a1e4e-651a-4697-97a5-3832dcc38fe2}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d3a94e25-0908-43a4-80db-cc742eb189f8}" />
@@ -125,6 +124,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{c4e5c72f-f279-4ddf-bb66-5bc3b7eb5a35}" />
 	<object class="MixerBusFader" id="{0774c8e9-6a8b-42c6-9eda-a33638417a8a}" />
-	<object class="SpatialiserEffect" id="{e63a1e4e-651a-4697-97a5-3832dcc38fe2}" />
 	<object class="MixerBusFader" id="{7f148676-2860-4b5e-a24c-0957e58462ae}" />
 </objects>

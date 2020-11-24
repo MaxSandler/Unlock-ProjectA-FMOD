@@ -5,7 +5,7 @@
 			<value>UI_SpawnJoystick</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{11b658aa-75dc-4cf3-af98-498bec1040e2}</destination>
@@ -113,7 +113,6 @@
 	<object class="MixerBusEffectChain" id="{e3a50295-ce64-4601-90fd-ac6f4e9aeb71}">
 		<relationship name="effects">
 			<destination>{4d4a61c6-983e-4c96-9b1f-bf534140d49a}</destination>
-			<destination>{c4df94f4-7d8f-4850-9c70-dc486a6c28c9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9dead908-e78a-4821-b5c1-08c009d18427}" />
@@ -125,6 +124,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{bcd227f6-77c3-44bc-af45-a4e26e98d6cd}" />
 	<object class="MixerBusFader" id="{4d4a61c6-983e-4c96-9b1f-bf534140d49a}" />
-	<object class="SpatialiserEffect" id="{c4df94f4-7d8f-4850-9c70-dc486a6c28c9}" />
 	<object class="MixerBusFader" id="{2f1b1ecf-6df9-4198-83e2-7f105688e1d6}" />
 </objects>

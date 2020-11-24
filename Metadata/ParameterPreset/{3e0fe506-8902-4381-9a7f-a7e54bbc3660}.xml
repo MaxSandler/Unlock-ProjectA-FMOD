@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="ParameterPreset" id="{3e0fe506-8902-4381-9a7f-a7e54bbc3660}">
 		<property name="name">
-			<value>L-R Direction</value>
+			<value>UI_Tab_LeftRight</value>
 		</property>
 		<relationship name="folder">
 			<destination>{fed8f095-937e-45ee-884d-bfcf38a6b348}</destination>
@@ -12,16 +12,6 @@
 		</relationship>
 	</object>
 	<object class="GameParameter" id="{e93759a8-c8cf-4ce3-b3fb-1afebe78a0d0}">
-		<property name="parameterType">
-			<value>2</value>
-		</property>
-		<property name="maximum">
-			<value>2</value>
-		</property>
-		<property name="enumerationLabels">
-			<value>LTR</value>
-			<value>RTL</value>
-		</property>
 		<property name="initialValue">
 			<value>0</value>
 		</property>
