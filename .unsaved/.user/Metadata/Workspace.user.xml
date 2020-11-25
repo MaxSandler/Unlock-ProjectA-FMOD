@@ -4,6 +4,12 @@
 		<relationship name="projectSettings">
 			<destination>{50b852b5-e987-4e6b-b41f-ea4844f086c7}</destination>
 		</relationship>
+		<relationship name="sourceControlProvider">
+			<destination>{839cca78-6964-4524-9957-c5d58a454597}</destination>
+		</relationship>
+		<relationship name="changelist">
+			<destination>{21703fb7-5568-4a6d-bd83-42cf0297a2f0}</destination>
+		</relationship>
 		<relationship name="profilerSessionFolder">
 			<destination>{9e0c1f02-91af-4c8f-97cd-761a1bac1063}</destination>
 		</relationship>
@@ -13,4 +19,13 @@
 			<destination>{e45eaac7-c7fd-4d8c-8362-50c573d5ccdc}</destination>
 		</relationship>
 	</object>
+	<object class="ScriptBasedProvider" id="{839cca78-6964-4524-9957-c5d58a454597}">
+		<property name="name">
+			<value>Perforce</value>
+		</property>
+		<property name="settings">
+			<value>{"p4port":"192.168.19.6:1666","p4host":"","p4encoding":"none","p4user":"Unlock","p4password":"","p4client":"Unlock_Dev","p4Executable":"C:/Program Files/Perforce/p4.exe"}</value>
+		</property>
+	</object>
+	<object class="WorkspaceChangelist" id="{21703fb7-5568-4a6d-bd83-42cf0297a2f0}" />
 </objects>

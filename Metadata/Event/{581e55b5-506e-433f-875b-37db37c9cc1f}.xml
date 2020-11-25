@@ -5,7 +5,7 @@
 			<value>Serena_SilversGuard</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{32ac72d2-3ac0-4e92-b51a-d7894ffc41ff}</destination>
@@ -56,7 +56,14 @@
 			<destination>{9217c175-966c-4686-b4c4-6d49aaac7f99}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{2f12e41b-7aed-4268-84d8-a0a5bc8ff747}" />
+	<object class="EventAutomatableProperties" id="{2f12e41b-7aed-4268-84d8-a0a5bc8ff747}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+		<property name="voiceStealing">
+			<value>3</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{15c999ad-09f3-4532-a8d7-db2dba6b6a25}" />
 	<object class="GroupTrack" id="{f7a4ade7-7fb0-445c-99f7-3bcc00b22e4a}">
 		<relationship name="modules">
@@ -116,7 +123,6 @@
 	<object class="MixerBusEffectChain" id="{a82b8a11-d815-42e9-b0fa-c089745f88fb}">
 		<relationship name="effects">
 			<destination>{a9358901-dbd2-4dcc-a1fb-df57febc2866}</destination>
-			<destination>{f156ccfa-0562-49cd-a6af-3d4ba23ebde5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ce412697-cadc-4810-a93d-f3b550423a27}" />
@@ -148,6 +154,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{32458e09-f555-492e-9dc6-06f4984ba39f}" />
 	<object class="MixerBusFader" id="{a9358901-dbd2-4dcc-a1fb-df57febc2866}" />
-	<object class="SpatialiserEffect" id="{f156ccfa-0562-49cd-a6af-3d4ba23ebde5}" />
 	<object class="MixerBusFader" id="{4a43ef4f-02ef-4d35-b134-98a3aca11879}" />
 </objects>

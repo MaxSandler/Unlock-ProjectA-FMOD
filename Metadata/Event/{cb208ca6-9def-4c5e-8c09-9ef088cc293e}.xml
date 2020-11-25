@@ -5,7 +5,7 @@
 			<value>Serena_Dodge</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{32ac72d2-3ac0-4e92-b51a-d7894ffc41ff}</destination>
@@ -56,7 +56,14 @@
 			<destination>{33b169b3-d284-4aaf-b143-de816a86c3e9}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{06422356-ad8c-4fb0-b2e8-76c98c94a590}" />
+	<object class="EventAutomatableProperties" id="{06422356-ad8c-4fb0-b2e8-76c98c94a590}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+		<property name="voiceStealing">
+			<value>3</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{1fd8c2fd-b73c-45cc-8024-1f6aa90d15b2}" />
 	<object class="GroupTrack" id="{b48622a4-0038-40a7-bf72-3a480537e709}">
 		<relationship name="modules">
@@ -121,7 +128,6 @@
 	<object class="MixerBusEffectChain" id="{8de2af83-8ef8-49b4-b311-228930559ecf}">
 		<relationship name="effects">
 			<destination>{06450046-5adb-4b8f-bde4-113d9cfa009d}</destination>
-			<destination>{f4054929-319a-4cee-b829-a814755825a7}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8bb21699-4b0f-41ec-ab56-40227b87be96}" />
@@ -178,6 +184,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{328fa733-818d-4630-8508-d10eead52bb6}" />
 	<object class="MixerBusFader" id="{06450046-5adb-4b8f-bde4-113d9cfa009d}" />
-	<object class="SpatialiserEffect" id="{f4054929-319a-4cee-b829-a814755825a7}" />
 	<object class="MixerBusFader" id="{9885fc7f-6ffa-46ef-99a5-a64d432eca22}" />
 </objects>
