@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EventFolder" id="{d220580e-6015-4ce5-9da1-61d56af5a736}">
+		<property name="name">
+			<value>Clink</value>
+		</property>
+		<relationship name="folder">
+			<destination>{eded05d7-7b69-43b1-bbeb-15680d29d460}</destination>
+		</relationship>
+	</object>
+</objects>

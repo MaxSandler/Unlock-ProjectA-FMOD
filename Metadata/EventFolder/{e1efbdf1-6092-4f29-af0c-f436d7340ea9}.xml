@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EventFolder" id="{e1efbdf1-6092-4f29-af0c-f436d7340ea9}">
+		<property name="name">
+			<value>Swiftplume</value>
+		</property>
+		<relationship name="folder">
+			<destination>{eded05d7-7b69-43b1-bbeb-15680d29d460}</destination>
+		</relationship>
+	</object>
+</objects>

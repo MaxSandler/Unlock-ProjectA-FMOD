@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EventFolder" id="{b8266790-be8a-4f6e-adc9-a6f53837330f}">
+		<property name="name">
+			<value>Omnibat</value>
+		</property>
+		<relationship name="folder">
+			<destination>{4ffb0513-9d91-4d7e-9349-c2716cb9dd5a}</destination>
+		</relationship>
+	</object>
+</objects>

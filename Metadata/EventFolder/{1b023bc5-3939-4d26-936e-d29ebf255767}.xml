@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EventFolder" id="{1b023bc5-3939-4d26-936e-d29ebf255767}">
+		<property name="name">
+			<value>StiltCat</value>
+		</property>
+		<relationship name="folder">
+			<destination>{4ffb0513-9d91-4d7e-9349-c2716cb9dd5a}</destination>
+		</relationship>
+	</object>
+</objects>

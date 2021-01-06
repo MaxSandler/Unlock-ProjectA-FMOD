@@ -5,7 +5,7 @@
 			<value>Baty</value>
 		</property>
 		<relationship name="folder">
-			<destination>{0a60fee6-7cb4-4dcd-aff9-c10e5b52c722}</destination>
+			<destination>{4ffb0513-9d91-4d7e-9349-c2716cb9dd5a}</destination>
 		</relationship>
 	</object>
 </objects>

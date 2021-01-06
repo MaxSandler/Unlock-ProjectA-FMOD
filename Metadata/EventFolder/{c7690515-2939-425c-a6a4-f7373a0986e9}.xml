@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EventFolder" id="{c7690515-2939-425c-a6a4-f7373a0986e9}">
+		<property name="name">
+			<value>Serena_Affect</value>
+		</property>
+		<relationship name="folder">
+			<destination>{32ac72d2-3ac0-4e92-b51a-d7894ffc41ff}</destination>
+		</relationship>
+	</object>
+</objects>
