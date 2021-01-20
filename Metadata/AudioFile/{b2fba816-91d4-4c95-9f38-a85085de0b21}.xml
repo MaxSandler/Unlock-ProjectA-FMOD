@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{b2fba816-91d4-4c95-9f38-a85085de0b21}">
 		<property name="assetPath">
-			<value>Flamegore__Flare_01.wav</value>
+			<value>Flamegore/Flamegore__Flare_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

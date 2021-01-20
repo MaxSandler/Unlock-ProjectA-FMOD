@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{80d88191-1a60-45de-9c48-7400b59d707f}">
+		<property name="assetPath">
+			<value>Snakey/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{26a7d39c-59b2-4e2e-90ea-52533bc18136}</destination>
+		</relationship>
+	</object>
+</objects>

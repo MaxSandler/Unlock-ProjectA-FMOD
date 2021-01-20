@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{72d2107e-8c67-49ff-8a71-13ccb865362c}">
 		<property name="assetPath">
-			<value>Chunky_ThrowMarshmellow_01.wav</value>
+			<value>Chunky/Chunky_ThrowMarshmellow_01.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

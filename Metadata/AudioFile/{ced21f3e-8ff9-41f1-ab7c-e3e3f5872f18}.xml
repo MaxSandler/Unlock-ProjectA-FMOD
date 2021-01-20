@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{ced21f3e-8ff9-41f1-ab7c-e3e3f5872f18}">
 		<property name="assetPath">
-			<value>Pig_Bandito__Jump_01.wav</value>
+			<value>PigBandito/Pig_Bandito__Jump_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

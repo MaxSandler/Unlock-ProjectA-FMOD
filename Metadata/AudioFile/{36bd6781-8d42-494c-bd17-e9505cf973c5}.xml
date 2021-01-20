@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{36bd6781-8d42-494c-bd17-e9505cf973c5}">
 		<property name="assetPath">
-			<value>Birdy__Threat_Attack_01.wav</value>
+			<value>Baty/Birdy__Threat_Attack_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{8bee7f7c-9781-4d68-abdb-43270adb0f63}">
 		<property name="assetPath">
-			<value>Desmo_Bite_02.wav</value>
+			<value>Desmo/Desmo_Bite_02.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

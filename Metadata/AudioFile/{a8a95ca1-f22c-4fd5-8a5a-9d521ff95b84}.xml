@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{a8a95ca1-f22c-4fd5-8a5a-9d521ff95b84}">
 		<property name="assetPath">
-			<value>Clink_Ability_Cannon_Rain_Shot_03.wav</value>
+			<value>Clink/Clink_Ability_Cannon_Rain_Shot_03.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

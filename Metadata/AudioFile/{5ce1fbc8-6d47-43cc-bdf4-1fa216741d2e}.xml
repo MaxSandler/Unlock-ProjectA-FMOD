@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{5ce1fbc8-6d47-43cc-bdf4-1fa216741d2e}">
 		<property name="assetPath">
-			<value>mus_gameplay_tundra-C.wav</value>
+			<value>Music/mus_gameplay_tundra-C.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

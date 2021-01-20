@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{d6b0b9d5-05c2-450f-8266-1436fd41728e}">
 		<property name="assetPath">
-			<value>Stilt_Cat__Elite_Attack_01.wav</value>
+			<value>StiltCat/Stilt_Cat__Elite_Attack_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

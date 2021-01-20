@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{657d8096-80a2-4eb4-b299-c44981e1659f}">
 		<property name="assetPath">
-			<value>Serena_HealPotion_04.wav</value>
+			<value>Serena/Serena_HealPotion_04.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

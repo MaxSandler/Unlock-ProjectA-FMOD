@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{000686d5-fa61-45d0-a9aa-6a2e9242250f}">
 		<property name="assetPath">
-			<value>Flamegore__SuperNova_01.wav</value>
+			<value>Flamegore/Flamegore__SuperNova_01.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

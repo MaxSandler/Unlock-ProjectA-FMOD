@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{42242e3f-0a4b-4651-be99-a1e0a05296d4}">
 		<property name="assetPath">
-			<value>Violus__ToxicBreath_01.wav</value>
+			<value>Violus/Violus__ToxicBreath_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{385cb515-0a5f-4829-b7ce-06cf52002beb}">
 		<property name="assetPath">
-			<value>Frostbite__Flurry_Step_01.wav</value>
+			<value>Frostbite/Frostbite__Flurry_Step_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

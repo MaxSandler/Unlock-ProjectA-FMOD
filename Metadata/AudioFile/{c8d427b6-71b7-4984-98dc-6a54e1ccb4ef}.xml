@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{c8d427b6-71b7-4984-98dc-6a54e1ccb4ef}">
 		<property name="assetPath">
-			<value>mus_gameplay_grasslands-C.wav</value>
+			<value>Music/mus_gameplay_grasslands-C.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

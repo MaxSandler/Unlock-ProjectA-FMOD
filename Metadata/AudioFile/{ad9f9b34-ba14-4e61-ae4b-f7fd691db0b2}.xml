@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{ad9f9b34-ba14-4e61-ae4b-f7fd691db0b2}">
 		<property name="assetPath">
-			<value>mus_violus_superboss_loop-160bpm.wav</value>
+			<value>Music/mus_violus_superboss_loop-160bpm.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

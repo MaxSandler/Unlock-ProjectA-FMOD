@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{443edd66-e620-43d8-84cc-80ed66cc486a}">
 		<property name="assetPath">
-			<value>Serena_Magic_Prot_Loop_01.wav</value>
+			<value>Serena/Serena_Magic_Prot_Loop_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

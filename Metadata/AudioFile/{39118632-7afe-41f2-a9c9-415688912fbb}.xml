@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{39118632-7afe-41f2-a9c9-415688912fbb}">
 		<property name="assetPath">
-			<value>Serena_VeryHeavyAttack_03.wav</value>
+			<value>Serena/Serena_VeryHeavyAttack_03.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

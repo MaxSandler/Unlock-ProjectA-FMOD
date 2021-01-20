@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{147b5f72-b6ae-4eb1-8003-f52b52929e4c}">
 		<property name="assetPath">
-			<value>Gyra_Ability_Judgement_01.wav</value>
+			<value>Gyra/Gyra_Ability_Judgement_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

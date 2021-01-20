@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{0b2845ba-9096-4756-bda2-1e47e86e29ae}">
+		<property name="assetPath">
+			<value>Swiftplume/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{26a7d39c-59b2-4e2e-90ea-52533bc18136}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{ad654621-e9b6-49dd-b913-86b9193d7b4c}">
 		<property name="assetPath">
-			<value>Aero__Death_01.wav</value>
+			<value>Aero/Aero__Death_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

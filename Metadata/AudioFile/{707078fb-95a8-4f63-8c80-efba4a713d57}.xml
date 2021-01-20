@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{707078fb-95a8-4f63-8c80-efba4a713d57}">
 		<property name="assetPath">
-			<value>Superboss_Aero_Win-148bpm.wav</value>
+			<value>Music/Superboss_Aero_Win-148bpm.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

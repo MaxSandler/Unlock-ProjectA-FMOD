@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{192b753f-fa3a-4d82-909b-c2cd2193a9c9}">
 		<property name="assetPath">
-			<value>mus_gameplay_ruins-A-96bpm.wav</value>
+			<value>Music/mus_gameplay_ruins-A-96bpm.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{b6106d6c-2c9d-480f-b14d-d752f5ea9d99}">
 		<property name="assetPath">
-			<value>Cat_Bandito__TripleStrike_Attack_01.wav</value>
+			<value>CatBandito/Cat_Bandito__TripleStrike_Attack_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

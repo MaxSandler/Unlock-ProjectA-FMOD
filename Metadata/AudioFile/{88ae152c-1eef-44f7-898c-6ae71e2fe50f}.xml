@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{88ae152c-1eef-44f7-898c-6ae71e2fe50f}">
 		<property name="assetPath">
-			<value>Goaty_Footstep_03.wav</value>
+			<value>Goaty/Goaty_Footstep_03.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

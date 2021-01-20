@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{b5c1ef15-bcd2-4b02-867d-165e06d36a24}">
 		<property name="assetPath">
-			<value>Frostbite Superboss Music V2 - 148BPM.wav</value>
+			<value>Music/Frostbite Superboss Music V2 - 148BPM.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

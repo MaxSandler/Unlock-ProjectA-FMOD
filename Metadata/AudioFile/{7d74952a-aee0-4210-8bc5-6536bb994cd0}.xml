@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{7d74952a-aee0-4210-8bc5-6536bb994cd0}">
 		<property name="assetPath">
-			<value>Serena_Ability_Slam_01.wav</value>
+			<value>Serena/Serena_Ability_Slam_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

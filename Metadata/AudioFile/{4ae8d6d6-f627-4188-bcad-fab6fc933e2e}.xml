@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{4ae8d6d6-f627-4188-bcad-fab6fc933e2e}">
 		<property name="assetPath">
-			<value>Foxy_FurballSpit_01.wav</value>
+			<value>Foxy/Foxy_FurballSpit_01.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

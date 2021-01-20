@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{b4d18f2d-07cb-4f80-955e-5fce29299264}">
 		<property name="assetPath">
-			<value>mus_main_menu_extension-80bpm.wav</value>
+			<value>Music/mus_main_menu_extension-80bpm.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

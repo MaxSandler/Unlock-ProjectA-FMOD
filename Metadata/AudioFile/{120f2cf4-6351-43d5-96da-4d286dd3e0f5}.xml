@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{120f2cf4-6351-43d5-96da-4d286dd3e0f5}">
 		<property name="assetPath">
-			<value>Phantom__Elite_Attack_01.wav</value>
+			<value>Phantom/Phantom__Elite_Attack_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

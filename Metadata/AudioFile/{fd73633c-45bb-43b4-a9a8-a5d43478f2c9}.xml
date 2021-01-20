@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{fd73633c-45bb-43b4-a9a8-a5d43478f2c9}">
 		<property name="assetPath">
-			<value>Serena_Ability_Moonwave_04.wav</value>
+			<value>Serena/Serena_Ability_Moonwave_04.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

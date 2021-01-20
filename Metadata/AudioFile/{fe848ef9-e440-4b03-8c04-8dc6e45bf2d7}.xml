@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{fe848ef9-e440-4b03-8c04-8dc6e45bf2d7}">
 		<property name="assetPath">
-			<value>Omnibat__Elite_Attack_01.wav</value>
+			<value>Omnibat/Omnibat__Elite_Attack_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

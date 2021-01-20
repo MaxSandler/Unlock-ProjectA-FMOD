@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{ddfb5984-e84b-4675-831a-2111b46152f5}">
 		<property name="assetPath">
-			<value>mus_gameplay_ruins-C.wav</value>
+			<value>Music/mus_gameplay_ruins-C.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

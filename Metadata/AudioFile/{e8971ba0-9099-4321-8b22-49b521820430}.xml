@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{e8971ba0-9099-4321-8b22-49b521820430}">
 		<property name="assetPath">
-			<value>Serena_Ability_Flurry_05.wav</value>
+			<value>Serena/Serena_Ability_Flurry_05.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

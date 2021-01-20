@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{9680580e-ceed-45a3-84da-6fb74cfef500}">
 		<property name="assetPath">
-			<value>Foxy_Walk_BounceDown_03.wav</value>
+			<value>Foxy/Foxy_Walk_BounceDown_03.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

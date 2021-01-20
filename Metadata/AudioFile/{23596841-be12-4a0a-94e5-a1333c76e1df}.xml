@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{23596841-be12-4a0a-94e5-a1333c76e1df}">
 		<property name="assetPath">
-			<value>Snakey_Teleport_PopUp_03.wav</value>
+			<value>Snakey/Snakey_Teleport_PopUp_03.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

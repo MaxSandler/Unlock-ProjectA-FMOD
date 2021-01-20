@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{da73b729-165c-46e0-a1b5-e9a34b05180f}">
 		<property name="assetPath">
-			<value>Laon_Ability_Death_01.wav</value>
+			<value>Laon/Laon_Ability_Death_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

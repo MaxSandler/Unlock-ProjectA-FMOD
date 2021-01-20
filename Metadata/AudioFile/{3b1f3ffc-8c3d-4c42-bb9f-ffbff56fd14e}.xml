@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{3b1f3ffc-8c3d-4c42-bb9f-ffbff56fd14e}">
 		<property name="assetPath">
-			<value>UI_LootDrop_Level_03.wav</value>
+			<value>UI/UI_LootDrop_Level_03.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

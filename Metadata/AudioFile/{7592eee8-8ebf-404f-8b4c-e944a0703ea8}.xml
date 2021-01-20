@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{7592eee8-8ebf-404f-8b4c-e944a0703ea8}">
 		<property name="assetPath">
-			<value>Aero Grasslands Superboss Music Loop V1 - 148BPM.wav</value>
+			<value>Aero/Aero Grasslands Superboss Music Loop V1 - 148BPM.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

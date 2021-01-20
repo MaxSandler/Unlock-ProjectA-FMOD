@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{453c498a-1ee5-4b0a-abd4-7d6e9cddf411}">
 		<property name="assetPath">
-			<value>mus_flamegore_superboss_intro-148bpm.wav</value>
+			<value>Music/mus_flamegore_superboss_intro-148bpm.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

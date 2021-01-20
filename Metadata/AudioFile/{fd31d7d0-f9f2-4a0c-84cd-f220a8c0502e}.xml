@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{fd31d7d0-f9f2-4a0c-84cd-f220a8c0502e}">
 		<property name="assetPath">
-			<value>Gyra_Ability_Grand_Smash_01.wav</value>
+			<value>Gyra/Gyra_Ability_Grand_Smash_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

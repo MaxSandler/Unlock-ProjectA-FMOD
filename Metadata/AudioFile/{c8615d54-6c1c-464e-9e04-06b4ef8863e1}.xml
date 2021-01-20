@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{c8615d54-6c1c-464e-9e04-06b4ef8863e1}">
 		<property name="assetPath">
-			<value>GeneralHogg_IllGetYouJump_02.wav</value>
+			<value>GeneralHogg/GeneralHogg_IllGetYouJump_02.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

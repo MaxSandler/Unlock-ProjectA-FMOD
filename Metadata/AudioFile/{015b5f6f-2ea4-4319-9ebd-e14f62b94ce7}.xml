@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{015b5f6f-2ea4-4319-9ebd-e14f62b94ce7}">
 		<property name="assetPath">
-			<value>lionheart_vox_serena_affect_blast_03_v2.wav</value>
+			<value>VOX/lionheart_vox_serena_affect_blast_03_v2.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{5b34d2f9-7586-4022-b70c-843613b905c6}">
+		<property name="assetPath">
+			<value>Serena/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{26a7d39c-59b2-4e2e-90ea-52533bc18136}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{74b39184-c99e-422f-ac41-e088859765bc}">
 		<property name="assetPath">
-			<value>Baty_WingFlap_Heavy_01.wav</value>
+			<value>Baty/Baty_WingFlap_Heavy_01.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

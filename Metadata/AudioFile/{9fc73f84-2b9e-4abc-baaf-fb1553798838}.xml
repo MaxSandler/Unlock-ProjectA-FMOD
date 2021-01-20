@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{9fc73f84-2b9e-4abc-baaf-fb1553798838}">
 		<property name="assetPath">
-			<value>LordKarkadann_Mars_Smash_01.wav</value>
+			<value>LordKarkadann/LordKarkadann_Mars_Smash_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

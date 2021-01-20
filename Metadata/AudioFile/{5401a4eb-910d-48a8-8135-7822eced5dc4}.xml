@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{5401a4eb-910d-48a8-8135-7822eced5dc4}">
 		<property name="assetPath">
-			<value>Serena_HeavyAttackSwordStab_01.wav</value>
+			<value>Serena/Serena_HeavyAttackSwordStab_01.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

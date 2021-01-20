@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{51fd2dfe-ca1d-4f17-b058-d5a9ea94f9c7}">
 		<property name="assetPath">
-			<value>Swiftplume_Ability_Dreamsong_02.wav</value>
+			<value>Swiftplume/Swiftplume_Ability_Dreamsong_02.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

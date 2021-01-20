@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{c9cb7e8b-0312-4d10-91a4-bfacbdd3e5ba}">
 		<property name="assetPath">
-			<value>Flamegore__Basic_Attack_Melee_01.wav</value>
+			<value>Flamegore/Flamegore__Basic_Attack_Melee_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

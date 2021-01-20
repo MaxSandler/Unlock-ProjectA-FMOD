@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{19c9b0ba-dcdb-4438-a335-9092282513d9}">
 		<property name="assetPath">
-			<value>Frostbite__Blizzard_01.wav</value>
+			<value>Frostbite/Frostbite__Blizzard_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

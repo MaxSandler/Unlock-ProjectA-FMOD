@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{736d6682-efdb-44e0-99e2-c69606055827}">
 		<property name="assetPath">
-			<value>Tyrino__Threat_Attack_01.wav</value>
+			<value>Tyrino/Tyrino__Threat_Attack_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

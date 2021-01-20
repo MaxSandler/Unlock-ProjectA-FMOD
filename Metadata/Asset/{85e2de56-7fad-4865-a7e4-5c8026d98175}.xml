@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{85e2de56-7fad-4865-a7e4-5c8026d98175}">
+		<property name="assetPath">
+			<value>Desmo/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{26a7d39c-59b2-4e2e-90ea-52533bc18136}</destination>
+		</relationship>
+	</object>
+</objects>

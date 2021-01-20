@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{2382528e-3894-4be1-97df-36a439a83b5b}">
 		<property name="assetPath">
-			<value>Owly_BasicPeck_04.wav</value>
+			<value>Owly/Owly_BasicPeck_04.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

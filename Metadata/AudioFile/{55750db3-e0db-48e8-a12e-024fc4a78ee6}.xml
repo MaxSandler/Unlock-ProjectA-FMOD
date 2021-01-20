@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{55750db3-e0db-48e8-a12e-024fc4a78ee6}">
 		<property name="assetPath">
-			<value>Gargoyle__Elite_Attack_01.wav</value>
+			<value>Gargoyle/Gargoyle__Elite_Attack_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

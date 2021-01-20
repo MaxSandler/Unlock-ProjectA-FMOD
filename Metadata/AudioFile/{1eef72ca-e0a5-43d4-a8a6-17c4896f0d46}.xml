@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{1eef72ca-e0a5-43d4-a8a6-17c4896f0d46}">
 		<property name="assetPath">
-			<value>Ghosty_WillOWispThrow_01.wav</value>
+			<value>Ghosty/Ghosty_WillOWispThrow_01.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

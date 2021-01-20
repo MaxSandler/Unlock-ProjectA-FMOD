@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{6d994c93-0e0d-4ac8-ba68-b5846cb5dcdf}">
 		<property name="assetPath">
-			<value>Serena_OverheadFinisher_03.wav</value>
+			<value>Serena/Serena_OverheadFinisher_03.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

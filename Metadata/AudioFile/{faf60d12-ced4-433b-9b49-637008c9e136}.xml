@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{faf60d12-ced4-433b-9b49-637008c9e136}">
 		<property name="assetPath">
-			<value>Violus__Basic_Attack_Ranged_02.wav</value>
+			<value>Violus/Violus__Basic_Attack_Ranged_02.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

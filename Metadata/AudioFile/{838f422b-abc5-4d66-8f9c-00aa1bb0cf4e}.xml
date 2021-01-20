@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{838f422b-abc5-4d66-8f9c-00aa1bb0cf4e}">
 		<property name="assetPath">
-			<value>UI_Tab_RTL_01.wav</value>
+			<value>UI/UI_Tab_RTL_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

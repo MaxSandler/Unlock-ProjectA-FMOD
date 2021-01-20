@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{d9a7c026-4f84-439e-b7ad-bc55abfc070b}">
 		<property name="assetPath">
-			<value>Project A Boss Combat Music V2 Outro - 148 BPM.wav</value>
+			<value>Music/Project A Boss Combat Music V2 Outro - 148 BPM.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
