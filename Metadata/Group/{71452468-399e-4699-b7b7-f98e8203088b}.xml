@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{71452468-399e-4699-b7b7-f98e8203088b}">
+		<property name="name">
+			<value>Owly</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{baaccdb3-f7e7-4dd9-8112-2a7485618919}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{1f057427-b434-4864-8c42-7e0462c7b853}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{02c3044e-c996-4175-a3c7-c4f9c8b2c987}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{baaccdb3-f7e7-4dd9-8112-2a7485618919}">
+		<relationship name="effects">
+			<destination>{4dad3694-0480-4510-ab18-36758b8da1e7}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{1f057427-b434-4864-8c42-7e0462c7b853}" />
+	<object class="MixerBusFader" id="{4dad3694-0480-4510-ab18-36758b8da1e7}" />
+</objects>

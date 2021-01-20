@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="UiMixerView" id="{d42395e6-77eb-4064-886c-25ebe147b0ee}">
+		<property name="name">
+			<value>Mobs</value>
+		</property>
+		<relationship name="assignedStrips">
+			<destination>{0d4d68e1-3b9c-4867-9306-6d7f95827104}</destination>
+			<destination>{50734efb-29fb-4b2e-9357-05a379356600}</destination>
+			<destination>{dd220a7e-9825-4d6e-a752-d51a7a95f9ec}</destination>
+			<destination>{9bef411e-ec1c-4fd8-bf8e-afb5cae5150e}</destination>
+			<destination>{b19c2f79-f14b-49cc-bfb9-834f30b5691a}</destination>
+			<destination>{762b9df7-fd88-4d4c-adb3-0daadc6e568b}</destination>
+			<destination>{c44a018e-1bf2-4024-ae23-ff0d3f0d7143}</destination>
+			<destination>{79accf41-90ff-433e-bed3-e2f2c7f64197}</destination>
+			<destination>{7b83e3e2-775a-44a1-bfea-0aa9cfbd414e}</destination>
+			<destination>{71452468-399e-4699-b7b7-f98e8203088b}</destination>
+			<destination>{a5e6c2c3-ac09-45ee-a8e0-3a2d5e897d79}</destination>
+			<destination>{0cfb4874-5043-4916-9509-00575cd42c59}</destination>
+			<destination>{8eb4f837-6d34-487d-8054-c6318d7baf9f}</destination>
+			<destination>{9a8a1eab-4b04-443b-96e9-c269dcb689bd}</destination>
+			<destination>{f006c008-27a1-4a4d-b918-8d75793ad27c}</destination>
+			<destination>{46de183c-500e-40c0-a3cd-78a7059fc5fd}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{6397cd5e-9628-46a7-8769-634d42b463fb}</destination>
+		</relationship>
+	</object>
+</objects>

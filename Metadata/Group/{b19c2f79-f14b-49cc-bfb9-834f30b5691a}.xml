@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{b19c2f79-f14b-49cc-bfb9-834f30b5691a}">
+		<property name="name">
+			<value>Birdy</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{57331b12-637a-4c54-992f-0202f3546988}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{222e1f6c-7243-4851-9e1a-9c8fd45dde72}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{02c3044e-c996-4175-a3c7-c4f9c8b2c987}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{57331b12-637a-4c54-992f-0202f3546988}">
+		<relationship name="effects">
+			<destination>{bd21b880-10ff-48dc-89e2-3b8217ce6e89}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{222e1f6c-7243-4851-9e1a-9c8fd45dde72}" />
+	<object class="MixerBusFader" id="{bd21b880-10ff-48dc-89e2-3b8217ce6e89}" />
+</objects>

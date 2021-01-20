@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="UiMixerView" id="{70b4e04c-aee4-4f64-88e5-5f6df74190b4}">
+		<property name="name">
+			<value>Serena</value>
+		</property>
+		<relationship name="assignedStrips">
+			<destination>{bd3f54ac-cd12-4889-9c7d-4297c550c2d2}</destination>
+			<destination>{5e9485de-7ce0-4a1a-91cb-9373518b4f92}</destination>
+			<destination>{4de560c1-d3c9-48cb-b98a-f10adaeb5c90}</destination>
+			<destination>{b36d8cd3-e9d7-473c-b73e-e04f4a95d950}</destination>
+			<destination>{1f5d7670-2a61-40dc-b5c4-91f8cf04c2e5}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{6397cd5e-9628-46a7-8769-634d42b463fb}</destination>
+		</relationship>
+	</object>
+</objects>

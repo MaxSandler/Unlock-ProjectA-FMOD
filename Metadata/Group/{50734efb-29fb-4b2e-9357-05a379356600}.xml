@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{50734efb-29fb-4b2e-9357-05a379356600}">
+		<property name="name">
+			<value>Chunky</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{7a8cca47-10bb-49c4-bd9e-342d90f228df}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{d474997a-2399-4f91-a455-2aa10c22fce1}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{02c3044e-c996-4175-a3c7-c4f9c8b2c987}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{7a8cca47-10bb-49c4-bd9e-342d90f228df}">
+		<relationship name="effects">
+			<destination>{c268b1f1-e866-48b0-9ca0-c6e20b0a205c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{d474997a-2399-4f91-a455-2aa10c22fce1}" />
+	<object class="MixerBusFader" id="{c268b1f1-e866-48b0-9ca0-c6e20b0a205c}" />
+</objects>

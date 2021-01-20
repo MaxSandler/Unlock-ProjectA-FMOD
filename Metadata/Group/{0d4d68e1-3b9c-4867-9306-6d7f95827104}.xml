@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{0d4d68e1-3b9c-4867-9306-6d7f95827104}">
+		<property name="name">
+			<value>Baty</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{0f1fd282-1f72-4ff1-af93-11e996121185}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{e485932d-20bb-4072-9161-b13295ee3c2c}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{02c3044e-c996-4175-a3c7-c4f9c8b2c987}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{0f1fd282-1f72-4ff1-af93-11e996121185}">
+		<relationship name="effects">
+			<destination>{e593ac9e-a799-45e5-ae61-ca3147b3affe}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{e485932d-20bb-4072-9161-b13295ee3c2c}" />
+	<object class="MixerBusFader" id="{e593ac9e-a799-45e5-ae61-ca3147b3affe}" />
+</objects>

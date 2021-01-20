@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{9bef411e-ec1c-4fd8-bf8e-afb5cae5150e}">
+		<property name="name">
+			<value>Ghosty</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{b354a73b-e89f-4185-9fe9-d020f5890b4b}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{32e047d1-e1ad-4195-8c33-22f2bb6cac1f}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{02c3044e-c996-4175-a3c7-c4f9c8b2c987}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{b354a73b-e89f-4185-9fe9-d020f5890b4b}">
+		<relationship name="effects">
+			<destination>{10d1e105-171b-4a9c-b028-a9bbec4c1d7d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{32e047d1-e1ad-4195-8c33-22f2bb6cac1f}" />
+	<object class="MixerBusFader" id="{10d1e105-171b-4a9c-b028-a9bbec4c1d7d}" />
+</objects>

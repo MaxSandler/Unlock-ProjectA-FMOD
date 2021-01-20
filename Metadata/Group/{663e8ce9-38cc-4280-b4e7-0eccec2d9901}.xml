@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{663e8ce9-38cc-4280-b4e7-0eccec2d9901}">
+		<property name="name">
+			<value>SuperBosses</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{b4ff7627-c090-4849-a4cd-17c30e88f2b2}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{b04f2bc3-70ac-4f76-aa4d-d13b739e9934}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{f4493e06-2502-492c-bdd0-423a54453acd}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{b4ff7627-c090-4849-a4cd-17c30e88f2b2}">
+		<relationship name="effects">
+			<destination>{dfbac0fa-5263-40af-8510-26e2cf19c8bf}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{b04f2bc3-70ac-4f76-aa4d-d13b739e9934}" />
+	<object class="MixerBusFader" id="{dfbac0fa-5263-40af-8510-26e2cf19c8bf}" />
+</objects>

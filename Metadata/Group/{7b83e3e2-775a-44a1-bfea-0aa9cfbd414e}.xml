@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{7b83e3e2-775a-44a1-bfea-0aa9cfbd414e}">
+		<property name="name">
+			<value>Omnibat</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{20e9c481-c804-410d-8a1e-38d14b0f6167}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{0d1f592f-89a8-478c-bf46-9acb336c99da}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{02c3044e-c996-4175-a3c7-c4f9c8b2c987}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{20e9c481-c804-410d-8a1e-38d14b0f6167}">
+		<relationship name="effects">
+			<destination>{cce99114-a13e-4d6c-ab74-f1bba4a7c94f}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{0d1f592f-89a8-478c-bf46-9acb336c99da}" />
+	<object class="MixerBusFader" id="{cce99114-a13e-4d6c-ab74-f1bba4a7c94f}" />
+</objects>

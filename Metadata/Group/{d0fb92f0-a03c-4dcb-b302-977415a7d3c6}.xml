@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{d0fb92f0-a03c-4dcb-b302-977415a7d3c6}">
+		<property name="name">
+			<value>Laon</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{c4a2039a-24ba-42ce-83a6-3f55a80b26eb}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{74ffb480-95e3-4222-bdb8-d648c9ca3c39}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{daf02965-c805-44a3-8ab2-7116b63f5837}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{c4a2039a-24ba-42ce-83a6-3f55a80b26eb}">
+		<relationship name="effects">
+			<destination>{d22395a9-c98e-4cd1-b143-4f033cbd1df9}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{74ffb480-95e3-4222-bdb8-d648c9ca3c39}" />
+	<object class="MixerBusFader" id="{d22395a9-c98e-4cd1-b143-4f033cbd1df9}" />
+</objects>

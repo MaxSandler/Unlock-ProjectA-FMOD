@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{aebe3d6b-6a9c-4166-a055-c7ddd1fc2938}">
+		<property name="name">
+			<value>Flamegore</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{cc6afa60-824d-4a41-8406-a822aa143f25}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{88a64e69-8a2b-47b9-9e6c-2fbdb5045d56}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{663e8ce9-38cc-4280-b4e7-0eccec2d9901}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{cc6afa60-824d-4a41-8406-a822aa143f25}">
+		<relationship name="effects">
+			<destination>{cecc88a2-1c13-4135-9cfd-1ee2f7e4f820}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{88a64e69-8a2b-47b9-9e6c-2fbdb5045d56}" />
+	<object class="MixerBusFader" id="{cecc88a2-1c13-4135-9cfd-1ee2f7e4f820}" />
+</objects>

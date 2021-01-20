@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{c56e0180-15d3-4dbc-8ba4-202307c7d5ea}">
+		<property name="name">
+			<value>GeneralHogg</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{29a6cf13-3541-498e-9d02-9550129e0870}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{54bcf77c-2730-4acb-b6ab-66be643ea9ba}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{daf02965-c805-44a3-8ab2-7116b63f5837}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{29a6cf13-3541-498e-9d02-9550129e0870}">
+		<relationship name="effects">
+			<destination>{4a275a73-b743-4a6c-9629-c0fc8daa167d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{54bcf77c-2730-4acb-b6ab-66be643ea9ba}" />
+	<object class="MixerBusFader" id="{4a275a73-b743-4a6c-9629-c0fc8daa167d}" />
+</objects>

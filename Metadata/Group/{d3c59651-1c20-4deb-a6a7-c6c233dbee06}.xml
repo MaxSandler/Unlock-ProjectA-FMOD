@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{d3c59651-1c20-4deb-a6a7-c6c233dbee06}">
+		<property name="name">
+			<value>Gyra</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{ae8ebfc1-08fe-42d5-8a0a-fdb336fe04e5}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{503eda7f-7bbc-4de9-a367-8016bde08f5e}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{daf02965-c805-44a3-8ab2-7116b63f5837}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{ae8ebfc1-08fe-42d5-8a0a-fdb336fe04e5}">
+		<relationship name="effects">
+			<destination>{f7a8faef-5453-4cfe-a4bb-2603ab7752f7}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{503eda7f-7bbc-4de9-a367-8016bde08f5e}" />
+	<object class="MixerBusFader" id="{f7a8faef-5453-4cfe-a4bb-2603ab7752f7}" />
+</objects>

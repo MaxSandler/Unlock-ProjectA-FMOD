@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{68d2caae-d1cf-4002-a7da-6a0ae8be2b9e}">
+		<property name="name">
+			<value>Spookybomb</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{1c40e035-cfdd-4f5b-99fd-f608b4988368}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{3966a2f8-64e9-414a-82c7-93693ed2cf3f}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{daf02965-c805-44a3-8ab2-7116b63f5837}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{1c40e035-cfdd-4f5b-99fd-f608b4988368}">
+		<relationship name="effects">
+			<destination>{5f2c62a3-a6dd-4998-9430-75b464d3d484}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{3966a2f8-64e9-414a-82c7-93693ed2cf3f}" />
+	<object class="MixerBusFader" id="{5f2c62a3-a6dd-4998-9430-75b464d3d484}" />
+</objects>

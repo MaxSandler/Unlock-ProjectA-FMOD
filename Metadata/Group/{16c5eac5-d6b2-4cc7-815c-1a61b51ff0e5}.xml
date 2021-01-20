@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{16c5eac5-d6b2-4cc7-815c-1a61b51ff0e5}">
+		<property name="name">
+			<value>Desmo</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{3c8573f7-a437-47fa-9ec5-75a439baf886}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{2d607ec4-eeb2-49df-ac02-a97b4c46d750}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{daf02965-c805-44a3-8ab2-7116b63f5837}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{3c8573f7-a437-47fa-9ec5-75a439baf886}">
+		<relationship name="effects">
+			<destination>{a090e26f-8200-448c-98a1-204d44e7aca5}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{2d607ec4-eeb2-49df-ac02-a97b4c46d750}" />
+	<object class="MixerBusFader" id="{a090e26f-8200-448c-98a1-204d44e7aca5}" />
+</objects>

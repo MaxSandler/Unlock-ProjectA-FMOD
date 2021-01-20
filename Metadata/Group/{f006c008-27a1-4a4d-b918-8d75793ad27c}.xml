@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{f006c008-27a1-4a4d-b918-8d75793ad27c}">
+		<property name="name">
+			<value>StiltCat</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{591c2efa-e011-42b6-a2a5-14af462ca265}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{4aed2c63-50bf-424e-a4a5-fc28513a536e}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{02c3044e-c996-4175-a3c7-c4f9c8b2c987}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{591c2efa-e011-42b6-a2a5-14af462ca265}">
+		<relationship name="effects">
+			<destination>{b0fd9ab2-46b0-436d-afbf-1bba22b6653d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{4aed2c63-50bf-424e-a4a5-fc28513a536e}" />
+	<object class="MixerBusFader" id="{b0fd9ab2-46b0-436d-afbf-1bba22b6653d}" />
+</objects>

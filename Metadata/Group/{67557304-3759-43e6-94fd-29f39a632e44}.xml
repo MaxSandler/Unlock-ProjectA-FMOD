@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{67557304-3759-43e6-94fd-29f39a632e44}">
+		<property name="name">
+			<value>LordKarkadann</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{04b82bc7-ec05-4ca0-b34f-9a7588d62107}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{d56ee1c9-0476-401a-bce9-278f5ea603ea}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{daf02965-c805-44a3-8ab2-7116b63f5837}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{04b82bc7-ec05-4ca0-b34f-9a7588d62107}">
+		<relationship name="effects">
+			<destination>{2675a45d-1a24-42cb-bd6b-57aa48d38394}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{d56ee1c9-0476-401a-bce9-278f5ea603ea}" />
+	<object class="MixerBusFader" id="{2675a45d-1a24-42cb-bd6b-57aa48d38394}" />
+</objects>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{c44a018e-1bf2-4024-ae23-ff0d3f0d7143}">
+		<property name="name">
+			<value>Gargoyle</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{90edeb68-c41c-476e-9917-7c5dcdc02f65}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{ae01da15-f4c4-4f97-832e-7450e2378f82}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{02c3044e-c996-4175-a3c7-c4f9c8b2c987}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{90edeb68-c41c-476e-9917-7c5dcdc02f65}">
+		<relationship name="effects">
+			<destination>{63c96bd0-be51-4b7a-b781-66fb9fd2e635}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{ae01da15-f4c4-4f97-832e-7450e2378f82}" />
+	<object class="MixerBusFader" id="{63c96bd0-be51-4b7a-b781-66fb9fd2e635}" />
+</objects>

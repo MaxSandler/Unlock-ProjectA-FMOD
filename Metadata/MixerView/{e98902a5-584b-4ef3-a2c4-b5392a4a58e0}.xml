@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="UiMixerView" id="{e98902a5-584b-4ef3-a2c4-b5392a4a58e0}">
+		<property name="name">
+			<value>Boss Groups</value>
+		</property>
+		<relationship name="assignedStrips">
+			<destination>{bce72bbd-1538-4716-9e69-6175e29b2278}</destination>
+			<destination>{16c5eac5-d6b2-4cc7-815c-1a61b51ff0e5}</destination>
+			<destination>{c56e0180-15d3-4dbc-8ba4-202307c7d5ea}</destination>
+			<destination>{d3c59651-1c20-4deb-a6a7-c6c233dbee06}</destination>
+			<destination>{d0fb92f0-a03c-4dcb-b302-977415a7d3c6}</destination>
+			<destination>{67557304-3759-43e6-94fd-29f39a632e44}</destination>
+			<destination>{68d2caae-d1cf-4002-a7da-6a0ae8be2b9e}</destination>
+			<destination>{63102d06-d9b4-4de6-9b74-9207fabc4142}</destination>
+			<destination>{3a2b563f-4b40-4250-a949-976d2df308d2}</destination>
+			<destination>{aebe3d6b-6a9c-4166-a055-c7ddd1fc2938}</destination>
+			<destination>{af0aa190-4ef8-415d-8b64-37bd290b95ad}</destination>
+			<destination>{4382c985-ca51-4497-9c9e-85b1c2f88794}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{6397cd5e-9628-46a7-8769-634d42b463fb}</destination>
+		</relationship>
+	</object>
+</objects>

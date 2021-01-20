@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{8eb4f837-6d34-487d-8054-c6318d7baf9f}">
+		<property name="name">
+			<value>Porky</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{bf30bdec-2ce5-43c6-9eb6-e24051e370bd}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{1b9481b9-ef10-4aaf-86b6-c78bf6e4479c}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{02c3044e-c996-4175-a3c7-c4f9c8b2c987}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{bf30bdec-2ce5-43c6-9eb6-e24051e370bd}">
+		<relationship name="effects">
+			<destination>{20d41a00-e190-4701-8c6e-d2b221a6d0a5}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{1b9481b9-ef10-4aaf-86b6-c78bf6e4479c}" />
+	<object class="MixerBusFader" id="{20d41a00-e190-4701-8c6e-d2b221a6d0a5}" />
+</objects>

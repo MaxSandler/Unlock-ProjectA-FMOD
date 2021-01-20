@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{4382c985-ca51-4497-9c9e-85b1c2f88794}">
+		<property name="name">
+			<value>Violus</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{2a72d809-5f2a-451c-a323-0c67026b5311}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{85835cf8-a3af-4a54-b4e0-c7015cedb604}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{663e8ce9-38cc-4280-b4e7-0eccec2d9901}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{2a72d809-5f2a-451c-a323-0c67026b5311}">
+		<relationship name="effects">
+			<destination>{4dad7d09-14dc-4c14-a671-1eec83c56173}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{85835cf8-a3af-4a54-b4e0-c7015cedb604}" />
+	<object class="MixerBusFader" id="{4dad7d09-14dc-4c14-a671-1eec83c56173}" />
+</objects>

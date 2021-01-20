@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{46de183c-500e-40c0-a3cd-78a7059fc5fd}">
+		<property name="name">
+			<value>Tyrino</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{9898267c-3cb1-43f5-9e5a-012520ae56c0}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{7089cbc4-7547-4ed7-a1c6-285f57fad6f9}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{02c3044e-c996-4175-a3c7-c4f9c8b2c987}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{9898267c-3cb1-43f5-9e5a-012520ae56c0}">
+		<relationship name="effects">
+			<destination>{3e97b2e8-bbbb-4900-b463-bd52642be5e1}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{7089cbc4-7547-4ed7-a1c6-285f57fad6f9}" />
+	<object class="MixerBusFader" id="{3e97b2e8-bbbb-4900-b463-bd52642be5e1}" />
+</objects>

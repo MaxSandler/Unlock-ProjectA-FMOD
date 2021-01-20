@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{af0aa190-4ef8-415d-8b64-37bd290b95ad}">
+		<property name="name">
+			<value>Frostbite</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{1679a733-df55-4f20-9075-9549cfea20a8}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{95fd6a55-d445-4b57-9027-6e969259d967}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{663e8ce9-38cc-4280-b4e7-0eccec2d9901}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{1679a733-df55-4f20-9075-9549cfea20a8}">
+		<relationship name="effects">
+			<destination>{393c4c0c-69b4-4788-921e-1e4ff7af2192}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{95fd6a55-d445-4b57-9027-6e969259d967}" />
+	<object class="MixerBusFader" id="{393c4c0c-69b4-4788-921e-1e4ff7af2192}" />
+</objects>

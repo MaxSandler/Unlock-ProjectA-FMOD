@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{63102d06-d9b4-4de6-9b74-9207fabc4142}">
+		<property name="name">
+			<value>Swiftplume</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{b6fcae4d-90a6-4a23-9191-dded552d0076}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{45b88dae-e782-46e1-9bb6-a11f7d1d1211}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{daf02965-c805-44a3-8ab2-7116b63f5837}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{b6fcae4d-90a6-4a23-9191-dded552d0076}">
+		<relationship name="effects">
+			<destination>{cd0bcfef-f9e8-4f88-a8e9-8a05141711ab}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{45b88dae-e782-46e1-9bb6-a11f7d1d1211}" />
+	<object class="MixerBusFader" id="{cd0bcfef-f9e8-4f88-a8e9-8a05141711ab}" />
+</objects>

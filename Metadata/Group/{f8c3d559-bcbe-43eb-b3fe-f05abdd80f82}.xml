@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{f8c3d559-bcbe-43eb-b3fe-f05abdd80f82}">
+		<property name="name">
+			<value>VO_Clink</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{7f5dfeff-109b-4d08-989a-ce10bffa1a67}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{c6d78196-9eea-47f8-9187-e2d03b73413c}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{008a01de-3c05-4f7c-84b0-835dc903fa47}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{7f5dfeff-109b-4d08-989a-ce10bffa1a67}">
+		<relationship name="effects">
+			<destination>{bdd2b4e1-b461-4eef-b497-c937968838e6}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{c6d78196-9eea-47f8-9187-e2d03b73413c}" />
+	<object class="MixerBusFader" id="{bdd2b4e1-b461-4eef-b497-c937968838e6}" />
+</objects>
