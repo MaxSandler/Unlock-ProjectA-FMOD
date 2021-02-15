@@ -13,8 +13,5 @@
 		<property name="speakerFormat">
 			<value>1</value>
 		</property>
-		<property name="buildMetadataOnly">
-			<value>true</value>
-		</property>
 	</object>
 </objects>
