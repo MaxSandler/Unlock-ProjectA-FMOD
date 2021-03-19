@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{38f6b6b4-f955-4c96-ac00-1ac60d32fe35}">
 		<property name="name">
 			<value>Spookybomb_Scatter</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{2bdf22e5-2d0c-4cc2-9c1e-a881b8e6b623}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{077a54c6-9550-4e84-b58c-1056fc2e6c24}</destination>
 		</relationship>
@@ -57,10 +60,17 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{970c73e9-ad71-4190-bb7d-144695827419}" />
-	<object class="MarkerTrack" id="{d1a1c8d1-7049-4370-8bf7-50f56be3a561}" />
+	<object class="MarkerTrack" id="{d1a1c8d1-7049-4370-8bf7-50f56be3a561}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{96cb95b1-bdd8-42ee-b684-c4605609b097}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
-			<destination>{28d6b04e-1323-459d-97c1-d8aef186c15a}</destination>
+			<destination>{559dd1cf-2596-4070-9183-c213e72ec8ee}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{cabbbf8c-f11d-478b-8d7d-22b06110aa97}</destination>
@@ -68,7 +78,7 @@
 	</object>
 	<object class="Timeline" id="{79100d14-df53-4f0c-bd37-d2d228665d2f}">
 		<relationship name="modules">
-			<destination>{28d6b04e-1323-459d-97c1-d8aef186c15a}</destination>
+			<destination>{559dd1cf-2596-4070-9183-c213e72ec8ee}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{077a54c6-9550-4e84-b58c-1056fc2e6c24}">
@@ -88,12 +98,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{67efe487-73aa-48f5-8eb3-adf066fa3df1}" />
-	<object class="SingleSound" id="{28d6b04e-1323-459d-97c1-d8aef186c15a}">
+	<object class="SingleSound" id="{559dd1cf-2596-4070-9183-c213e72ec8ee}">
 		<property name="length">
-			<value>3.6759583333333334</value>
+			<value>2.3434374999999998</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{d52747fd-01ba-4a2c-aaf6-7ba927b2fb81}</destination>
+			<destination>{d9147b67-12aa-4763-a235-17d07e8ea914}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{cabbbf8c-f11d-478b-8d7d-22b06110aa97}">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{38108d19-abe7-4d19-b49e-90d29083c13b}">
 		<property name="name">
 			<value>Laon_Death</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{0bd9e383-0629-4e5f-b9ac-ee676883334f}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{4f57bac5-0f81-4ea9-9132-aa00e3306f17}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{ab18ef5a-3d07-4276-aa23-519c472c22d4}" />
-	<object class="MarkerTrack" id="{3f154609-ecb5-4078-a557-ffdfb85658cf}" />
+	<object class="MarkerTrack" id="{3f154609-ecb5-4078-a557-ffdfb85658cf}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{9a4c6271-cf30-4cc4-aef0-ac953f6e55ed}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{7a810b9d-04af-4c04-bd46-15d61e8a23bd}</destination>
 		</relationship>

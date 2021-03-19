@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{b32683ad-3a88-4740-a462-9462f39d2217}">
 		<property name="name">
 			<value>Gyra_Death</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{994cc5d1-6b96-4353-804f-89cdbe93b124}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{521e7678-7298-488d-abef-20b37bd643d6}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{bac6ee60-b577-450b-9b48-4770131d02fa}" />
-	<object class="MarkerTrack" id="{611a9b5b-07fc-4c6e-8867-ee058e644092}" />
+	<object class="MarkerTrack" id="{611a9b5b-07fc-4c6e-8867-ee058e644092}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{9af9c3b2-527d-464c-9290-19024195709a}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{911b72a5-2203-47b7-b853-92309eda9319}</destination>
 		</relationship>

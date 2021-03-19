@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{d25b664f-d2b9-4399-a436-40324867fc91}">
 		<property name="name">
 			<value>Tyrino_Threat_Attack</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{3b6edb81-51e4-4bdd-aa0f-fdb8a1c17e69}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{f49c62e6-a173-48ed-bf51-94aabe59e23d}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{7bc0caf3-f84b-4fcb-b5de-1fb67a6a5edf}" />
-	<object class="MarkerTrack" id="{a42b5c9e-6f6c-4fdb-8e48-95a6e3438709}" />
+	<object class="MarkerTrack" id="{a42b5c9e-6f6c-4fdb-8e48-95a6e3438709}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{8de92990-e518-4d66-a34f-80e19e715de9}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{8b790646-d3fa-4415-8fa5-0106701cffdb}</destination>
 		</relationship>

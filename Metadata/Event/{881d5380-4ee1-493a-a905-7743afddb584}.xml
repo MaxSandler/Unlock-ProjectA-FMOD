@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{881d5380-4ee1-493a-a905-7743afddb584}">
 		<property name="name">
 			<value>Violus_Basic_Attack_Ranged</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{ee7b2b3a-4ffa-463c-bfaa-27b94774cdf6}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{4e71fcf7-50fc-4566-abe7-132cab453e3c}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{e99114b5-2465-4d2e-98ea-98f03eda1f7a}" />
-	<object class="MarkerTrack" id="{031c7494-f0b1-4387-a788-556f0be3c5f5}" />
+	<object class="MarkerTrack" id="{031c7494-f0b1-4387-a788-556f0be3c5f5}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{fbd0b17f-5fe7-4258-b41c-29061e70dfff}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{d2fec61b-52c5-4f65-96e1-a9bba29983c3}</destination>
 		</relationship>

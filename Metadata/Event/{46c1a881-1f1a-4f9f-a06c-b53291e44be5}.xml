@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{46c1a881-1f1a-4f9f-a06c-b53291e44be5}">
 		<property name="name">
 			<value>GeneralHogg_Hogzilla</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{d539087e-d519-49e5-956a-16305e79f4ce}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{157f4185-de52-48ba-80c1-ba13f9835298}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{09b1c52c-cf37-4d12-aeac-712b9e630980}" />
-	<object class="MarkerTrack" id="{d5605219-0d18-4ca7-b724-dacfe355ffad}" />
+	<object class="MarkerTrack" id="{d5605219-0d18-4ca7-b724-dacfe355ffad}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{b94dfb65-a2c2-417f-9ea6-1ef51dcdfad9}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{1a29f508-4776-4686-92e4-3d9017ff46ef}</destination>
 		</relationship>

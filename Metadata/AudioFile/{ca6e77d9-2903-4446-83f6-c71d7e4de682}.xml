@@ -4,6 +4,9 @@
 		<property name="assetPath">
 			<value>Clink/Clink_Ability_Cannon_Rain_Load_01.wav</value>
 		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
 		</property>

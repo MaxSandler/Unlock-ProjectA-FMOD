@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{e6cf4a70-983a-4519-8769-dfcd7b93b73d}">
 		<property name="name">
 			<value>Clink_FireWalker</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{9ff7a583-341e-4b97-bb85-aa1866992270}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{f101da98-8fc5-41dd-8e99-101afb42d6a5}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{49111de1-d2db-4917-87c2-70e597c1dc78}" />
-	<object class="MarkerTrack" id="{516b63b9-4f4b-4923-a757-5c160b03d7a0}" />
+	<object class="MarkerTrack" id="{516b63b9-4f4b-4923-a757-5c160b03d7a0}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{3d6bef87-2131-48ab-a4af-8c0890a3097c}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{64759cc6-0463-405b-84ab-b055ed4b70ad}</destination>
 		</relationship>

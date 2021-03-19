@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{b30a08d7-b874-41c5-afec-5f8dddbf7140}">
 		<property name="name">
 			<value>Aero_Spin_Attack</value>
@@ -60,7 +60,7 @@
 	<object class="MarkerTrack" id="{4eb610c2-c52f-4b9e-a290-7f07af970264}" />
 	<object class="GroupTrack" id="{1f9736b1-1f96-4cf5-a141-53b9ee380e7c}">
 		<relationship name="modules">
-			<destination>{3c50980b-73c9-41d6-8bfe-c2ede482cf4d}</destination>
+			<destination>{392f1902-9d75-4430-a4c9-f2dbaf6a6755}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{aec9e3ef-bd23-4d63-85ed-6192a7a637cf}</destination>
@@ -68,7 +68,7 @@
 	</object>
 	<object class="Timeline" id="{8a615e3d-67c0-4eb6-9486-59cf6e2da530}">
 		<relationship name="modules">
-			<destination>{3c50980b-73c9-41d6-8bfe-c2ede482cf4d}</destination>
+			<destination>{392f1902-9d75-4430-a4c9-f2dbaf6a6755}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{e118e045-d27b-4673-8ed2-b7671962114f}">
@@ -88,12 +88,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a1264528-1ab8-4d19-a1ad-076cf21d49ea}" />
-	<object class="SingleSound" id="{3c50980b-73c9-41d6-8bfe-c2ede482cf4d}">
+	<object class="SingleSound" id="{392f1902-9d75-4430-a4c9-f2dbaf6a6755}">
 		<property name="length">
-			<value>2.0247916666666668</value>
+			<value>0.76068749999999996</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{c94214f4-46eb-4053-b707-8f48d94aa599}</destination>
+			<destination>{f6792817-1538-4642-ba43-eb033e41467d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{aec9e3ef-bd23-4d63-85ed-6192a7a637cf}">

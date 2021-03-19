@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{e17e0356-f35c-4cf2-bf33-878da9c541c5}">
 		<property name="name">
 			<value>Frostbite_Frost</value>
@@ -60,7 +60,7 @@
 	<object class="MarkerTrack" id="{a00bc830-988f-49e9-96fa-94d0026c272c}" />
 	<object class="GroupTrack" id="{425299d0-5bb6-474d-91dc-a2c641527bc2}">
 		<relationship name="modules">
-			<destination>{1b261ca3-455b-4063-9827-3b07032e5c27}</destination>
+			<destination>{aaa994bd-2317-4355-a549-19f343a688eb}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{7020156e-4dc9-45c6-b36b-3e2f58814100}</destination>
@@ -68,7 +68,7 @@
 	</object>
 	<object class="Timeline" id="{cb876410-0e34-4a5b-a939-36c5f4ff15c9}">
 		<relationship name="modules">
-			<destination>{1b261ca3-455b-4063-9827-3b07032e5c27}</destination>
+			<destination>{aaa994bd-2317-4355-a549-19f343a688eb}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{b7418dec-75e5-49b3-b59d-1224372a0ece}">
@@ -88,12 +88,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0f33f279-bdf0-4a3d-a7aa-bd19ded7fb30}" />
-	<object class="SingleSound" id="{1b261ca3-455b-4063-9827-3b07032e5c27}">
+	<object class="SingleSound" id="{aaa994bd-2317-4355-a549-19f343a688eb}">
 		<property name="length">
-			<value>6.0101874999999998</value>
+			<value>4.9946666666666664</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{0e461e33-11ca-4187-bcab-50461d4ea6d7}</destination>
+			<destination>{5b35f2f2-090f-4410-8e1c-65fa466d6d63}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{7020156e-4dc9-45c6-b36b-3e2f58814100}">

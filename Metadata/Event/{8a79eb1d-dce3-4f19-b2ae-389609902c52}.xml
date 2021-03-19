@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{8a79eb1d-dce3-4f19-b2ae-389609902c52}">
 		<property name="name">
 			<value>Snakey_Teleport_In</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{e6f1f25c-7626-4b55-b790-1f849bb1ae60}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{59c31982-8aac-4daa-98c1-cba25ff53f4b}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{daa662b2-2002-4f9e-b6aa-bd8098499dd9}" />
-	<object class="MarkerTrack" id="{493685a8-7aca-47fb-af5c-6e43bd6fd0d1}" />
+	<object class="MarkerTrack" id="{493685a8-7aca-47fb-af5c-6e43bd6fd0d1}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{185a8c5b-ad7a-464d-b96f-7ae06249c630}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{79f4fbac-0b3a-4ae7-8d14-be1ec3d781ce}</destination>
 		</relationship>

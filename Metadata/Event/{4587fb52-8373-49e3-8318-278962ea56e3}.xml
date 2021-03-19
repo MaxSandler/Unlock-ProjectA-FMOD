@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{4587fb52-8373-49e3-8318-278962ea56e3}">
 		<property name="name">
 			<value>Foxy_Walk_BounceDown</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{8061097d-0d74-4cd5-b028-21cc956cf2b4}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{78f5b7fb-2b0d-4fea-beb4-55cd258e0d1f}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{501a01cc-6f7a-4199-9143-db6ed74aee29}" />
-	<object class="MarkerTrack" id="{7450ca1b-18e0-4de9-ad84-c141e00642a5}" />
+	<object class="MarkerTrack" id="{7450ca1b-18e0-4de9-ad84-c141e00642a5}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{a63ab333-4a30-49d7-8376-18cd99864fd9}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{908f1645-ca99-49cd-82ef-097dc7c3c69f}</destination>
 		</relationship>

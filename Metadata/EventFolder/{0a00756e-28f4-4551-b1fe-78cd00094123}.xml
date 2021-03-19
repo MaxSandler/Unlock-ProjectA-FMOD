@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EventFolder" id="{0a00756e-28f4-4551-b1fe-78cd00094123}">
+		<property name="name">
+			<value>Clink_Hurt</value>
+		</property>
+		<relationship name="folder">
+			<destination>{3628b5ff-6dd6-44ee-8165-16bfe10afb56}</destination>
+		</relationship>
+	</object>
+</objects>

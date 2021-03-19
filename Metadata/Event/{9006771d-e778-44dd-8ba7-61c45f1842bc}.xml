@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{9006771d-e778-44dd-8ba7-61c45f1842bc}">
 		<property name="name">
 			<value>Clink_CannonRain</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{07397a9d-d60a-4270-ba3b-3a5af3ea2f84}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{ad7b4472-9bdb-4a9d-8e75-f2775deb59dc}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{2280a267-e379-4699-b993-e5bf1b7a241a}" />
-	<object class="MarkerTrack" id="{d4237bf8-7e80-4b7a-9e26-b06cf9dca80d}" />
+	<object class="MarkerTrack" id="{d4237bf8-7e80-4b7a-9e26-b06cf9dca80d}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{7267c495-856c-4e8c-8d33-b1482f1bcf57}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{31fdbab1-bfc9-46cf-ac32-f98fa582ab40}</destination>
 		</relationship>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{5e3d424f-faa0-4219-b22d-867afac53856}">
 		<property name="name">
 			<value>Clink_Attack</value>
@@ -44,6 +44,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{b907403a-3080-4836-bb63-1931336c82ab}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{8fb6f291-1e93-432c-8b70-84b29bedf69f}</destination>
 		</relationship>
@@ -60,8 +63,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{47c55114-35df-459a-a332-f2f0d300ab69}" />
-	<object class="MarkerTrack" id="{6ec47039-a07a-4fc3-bafc-fcd6749ab992}" />
+	<object class="MarkerTrack" id="{6ec47039-a07a-4fc3-bafc-fcd6749ab992}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{b9b1ad87-5b29-4f79-b5d2-babcf8baa961}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{e53921f5-e971-4e21-86fe-6ed3cb7af0e8}</destination>
 			<destination>{e58435b0-d386-4b8b-83c6-c7674747577a}</destination>
@@ -76,8 +86,8 @@
 	<object class="ParameterProxy" id="{43c103c8-345e-4cee-b7be-59b6d5aa24ae}">
 		<relationship name="modules">
 			<destination>{e53921f5-e971-4e21-86fe-6ed3cb7af0e8}</destination>
-			<destination>{e58435b0-d386-4b8b-83c6-c7674747577a}</destination>
 			<destination>{964e711c-01c1-48e3-8962-22dbc59d5d0e}</destination>
+			<destination>{e58435b0-d386-4b8b-83c6-c7674747577a}</destination>
 			<destination>{37e2b230-b914-4b46-a57e-98be0d216f28}</destination>
 		</relationship>
 		<relationship name="preset">

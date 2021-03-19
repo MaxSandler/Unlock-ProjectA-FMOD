@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{0895475e-2682-4588-8424-0f3d548cda1b}">
-		<property name="name">
-			<value>Gyra_Ability_GrandSmash</value>
-		</property>
 		<property name="note">
 			<value>Unapproved Asset. May need to be updated later</value>
+		</property>
+		<property name="name">
+			<value>Gyra_Ability_GrandSmash</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -45,6 +45,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{ce354dfa-3ad5-4b4d-a000-5b9fe6f7e45a}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{ed075ee4-a5c2-40be-bd57-212a4968375d}</destination>
 		</relationship>
@@ -61,8 +64,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{28f1052a-3044-40f0-b98c-6c68447c925b}" />
-	<object class="MarkerTrack" id="{ab428930-0e0a-430a-9503-30aaa832718e}" />
+	<object class="MarkerTrack" id="{ab428930-0e0a-430a-9503-30aaa832718e}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{7fa52493-4c51-475b-99a6-e01736659b23}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{dbc5d84c-fe40-4ee5-b2d1-96c70d7c409b}</destination>
 		</relationship>
@@ -71,6 +81,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{40c77b03-3afb-4593-8f7b-b4c4ecc97c6c}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{18fe7c40-f477-4b4e-b121-63e5ac36133b}</destination>
 		</relationship>
@@ -80,8 +93,8 @@
 	</object>
 	<object class="Timeline" id="{ca6376be-7a48-49b5-81cd-29db2b9e1a50}">
 		<relationship name="modules">
-			<destination>{dbc5d84c-fe40-4ee5-b2d1-96c70d7c409b}</destination>
 			<destination>{18fe7c40-f477-4b4e-b121-63e5ac36133b}</destination>
+			<destination>{dbc5d84c-fe40-4ee5-b2d1-96c70d7c409b}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{ed075ee4-a5c2-40be-bd57-212a4968375d}">

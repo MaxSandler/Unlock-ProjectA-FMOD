@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{311878e2-20f5-4b08-8087-02515c927a18}">
 		<property name="name">
 			<value>Owly_Walk</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{0610cfe0-d0c1-4d8e-96f8-060fe8564f09}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{5f9c019b-b316-4d35-9e58-33158dcb671e}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{fdce0075-ac70-4c68-932b-fd7372ff5052}" />
-	<object class="MarkerTrack" id="{e25cc29a-b17b-4162-be96-546b9a9e6ec7}" />
+	<object class="MarkerTrack" id="{e25cc29a-b17b-4162-be96-546b9a9e6ec7}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{f3d4cdfa-81c7-47a4-8b92-80ad0ff4836e}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{848e71b5-2b11-458a-9619-8fd86498a455}</destination>
 		</relationship>

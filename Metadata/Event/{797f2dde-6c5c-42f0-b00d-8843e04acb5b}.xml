@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{797f2dde-6c5c-42f0-b00d-8843e04acb5b}">
 		<property name="name">
 			<value>Omnibat_Threat_Attack</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{af81ca47-5c57-4306-8a44-ed1344a1cac5}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{200df232-0564-41bb-976f-cfc8fa61fc23}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{9ce1e7b5-f53d-4ef8-bbb3-e05707c0dd2e}" />
-	<object class="MarkerTrack" id="{f7d5ed57-7123-449e-ac40-3974233cfcea}" />
+	<object class="MarkerTrack" id="{f7d5ed57-7123-449e-ac40-3974233cfcea}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{c89e73be-8a2a-49bb-b67a-2d1e65a65342}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{edbce382-fbf3-4a39-98bc-7af9f25c706a}</destination>
 		</relationship>

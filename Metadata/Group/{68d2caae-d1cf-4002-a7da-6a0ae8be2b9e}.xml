@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="MixerGroup" id="{68d2caae-d1cf-4002-a7da-6a0ae8be2b9e}">
 		<property name="name">
 			<value>Spookybomb</value>

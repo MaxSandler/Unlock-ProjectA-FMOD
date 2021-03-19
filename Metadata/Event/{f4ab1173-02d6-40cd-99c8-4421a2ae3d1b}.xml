@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{f4ab1173-02d6-40cd-99c8-4421a2ae3d1b}">
 		<property name="name">
 			<value>Clink_BattleStart</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{def89427-bf89-4476-bcc4-60f2d7b96c9f}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{2fa72074-a8d3-4d0d-ad34-28fe186d0cb0}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{b7df834b-ad6f-4913-af31-6776c89b46f3}" />
-	<object class="MarkerTrack" id="{3264aaf9-88d3-4f7d-a6ae-428020425918}" />
+	<object class="MarkerTrack" id="{3264aaf9-88d3-4f7d-a6ae-428020425918}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{b0e603ac-3027-43d7-a471-0cb9ce054359}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{c392764d-8de6-47ba-8eb2-acec653f6e74}</destination>
 		</relationship>

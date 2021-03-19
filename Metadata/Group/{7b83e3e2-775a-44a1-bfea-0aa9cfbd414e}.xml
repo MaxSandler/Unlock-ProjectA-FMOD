@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="MixerGroup" id="{7b83e3e2-775a-44a1-bfea-0aa9cfbd414e}">
 		<property name="name">
 			<value>Omnibat</value>

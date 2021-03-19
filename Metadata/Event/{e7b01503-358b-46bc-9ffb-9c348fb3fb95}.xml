@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{e7b01503-358b-46bc-9ffb-9c348fb3fb95}">
 		<property name="name">
 			<value>Serena_Ability_Slam</value>
@@ -46,6 +46,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{eeeedb2f-b76e-474a-9d4b-f911ad0c916d}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{a97b993a-316b-4254-a903-d90c0cb56f4a}</destination>
 		</relationship>
@@ -62,8 +65,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{6554aa07-9e1a-487b-a450-2c10d362f8c3}" />
-	<object class="MarkerTrack" id="{e6f9e5f5-a0b4-4c2a-b144-50b21e843ce5}" />
+	<object class="MarkerTrack" id="{e6f9e5f5-a0b4-4c2a-b144-50b21e843ce5}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{fb267960-69e3-41f5-943b-4b005a1c3a61}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{6a8820ac-0d15-4f88-ad9c-eea5087e3fd5}</destination>
 		</relationship>
@@ -72,6 +82,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{0e8da437-25ab-4677-ae1d-1ecb05173385}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{1492cc4c-0976-4d0c-b550-c5cb82e673c3}</destination>
 		</relationship>
@@ -80,6 +93,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{b16d0ac1-4837-4ab3-bf50-8719e679cc2f}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="automationTracks">
 			<destination>{57079722-6103-4f2d-a361-6cda33e8ce70}</destination>
 		</relationship>
@@ -91,15 +107,18 @@
 		</relationship>
 	</object>
 	<object class="ReturnTrack" id="{a14a5770-ecff-461f-bc26-d4b6ab88e256}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerReturn">
 			<destination>{126246ee-812e-44f9-91b4-d9cb17c6b37f}</destination>
 		</relationship>
 	</object>
 	<object class="Timeline" id="{ec4a1d9c-21e6-480f-a7bd-c7d64175dc4c}">
 		<relationship name="modules">
-			<destination>{fd670b94-729d-41b9-ac4d-0f7eaf939713}</destination>
 			<destination>{6a8820ac-0d15-4f88-ad9c-eea5087e3fd5}</destination>
 			<destination>{1492cc4c-0976-4d0c-b550-c5cb82e673c3}</destination>
+			<destination>{fd670b94-729d-41b9-ac4d-0f7eaf939713}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{a97b993a-316b-4254-a903-d90c0cb56f4a}">
@@ -177,6 +196,9 @@
 		</relationship>
 	</object>
 	<object class="AutomationTrack" id="{57079722-6103-4f2d-a361-6cda33e8ce70}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="automator">
 			<destination>{58743f8d-2e81-4305-9c7a-07a9f10e81c0}</destination>
 		</relationship>

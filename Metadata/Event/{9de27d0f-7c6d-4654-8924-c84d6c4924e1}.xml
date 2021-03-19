@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{9de27d0f-7c6d-4654-8924-c84d6c4924e1}">
 		<property name="name">
 			<value>Flamegore_Flare</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{9353b0a2-f93e-4aaf-ad9d-fc15935f091d}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{c6dd5ff3-53ec-4fae-a81c-5a849805c26d}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{ef555402-3bcd-4539-bb21-4f3870da4936}" />
-	<object class="MarkerTrack" id="{4b87deaa-eda3-4643-8198-f59efdeb4b3f}" />
+	<object class="MarkerTrack" id="{4b87deaa-eda3-4643-8198-f59efdeb4b3f}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{29046250-f9bc-4783-819f-c71e5244d568}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{4a774a2f-dba1-4793-9f96-02a5845f8c46}</destination>
 		</relationship>

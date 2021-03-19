@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{e3883ecd-d9f6-4991-8c2e-9b519120974f}">
 		<property name="name">
 			<value>Serena_Death</value>
@@ -42,6 +42,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{1b9464bc-6c9e-4bf2-ac15-d71752f32bc5}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{f53666ed-292b-46f4-9865-c8563b16b186}</destination>
 		</relationship>
@@ -58,8 +61,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{8e21ac37-39ae-4033-b00d-38d93fdc9f7c}" />
-	<object class="MarkerTrack" id="{7cd53811-9304-4381-b252-439c979ba3c2}" />
+	<object class="MarkerTrack" id="{7cd53811-9304-4381-b252-439c979ba3c2}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{8c5789c1-df7e-474f-95e3-41fc163ec05d}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="automationTracks">
 			<destination>{0934369e-af42-4085-8248-9063cdf07686}</destination>
 		</relationship>
@@ -71,6 +81,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{c07d2b37-7483-4e88-8d2b-232b124817c3}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{8c233804-8f65-467c-b48a-a3ccf2f6b0c6}</destination>
 		</relationship>
@@ -102,6 +115,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{e03b42e7-8ed1-4c3c-b80d-47c1553ed176}" />
 	<object class="AutomationTrack" id="{0934369e-af42-4085-8248-9063cdf07686}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="automator">
 			<destination>{7637b977-06ac-468d-aebe-5894e4cb6c6e}</destination>
 		</relationship>

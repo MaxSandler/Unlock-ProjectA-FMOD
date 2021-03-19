@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{9d133852-a636-4c11-bfa3-3bf1482740e2}">
 		<property name="name">
 			<value>CatBandito_Threat_Attack</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{8107a91a-3bb0-41d7-a73a-ae60a6ae4c04}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{961179da-2c77-4bb5-bcef-4330af91a76d}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{59e5c5df-36e2-4da1-8a65-b80bd1523768}" />
-	<object class="MarkerTrack" id="{f2e5b4f9-6bfe-48ff-bbf9-a0fd7b10cb62}" />
+	<object class="MarkerTrack" id="{f2e5b4f9-6bfe-48ff-bbf9-a0fd7b10cb62}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{3bd0d407-2fa8-472f-b8f1-fae3c0e99f8d}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{164da993-5432-473a-ab3b-8a154040e5a4}</destination>
 		</relationship>

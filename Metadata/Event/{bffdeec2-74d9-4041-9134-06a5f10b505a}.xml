@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{bffdeec2-74d9-4041-9134-06a5f10b505a}">
-		<property name="name">
-			<value>PigBandito_Land</value>
-		</property>
 		<property name="note">
 			<value>Unapproved Asset. May need to be updated later</value>
+		</property>
+		<property name="name">
+			<value>PigBandito_Land</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -44,6 +44,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{ed891678-b2b3-4274-9ffd-7607f15ad243}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{b58c19f8-92c6-48a8-a56c-6fd6c4f75b91}</destination>
 		</relationship>
@@ -60,8 +63,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{b58f877c-8773-4871-8153-d3c53e991dfb}" />
-	<object class="MarkerTrack" id="{e2dc8d18-4eb7-4e0b-a53f-b95b4318ac32}" />
+	<object class="MarkerTrack" id="{e2dc8d18-4eb7-4e0b-a53f-b95b4318ac32}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{061c94ef-959a-480c-8d21-0b3cdfc81aa3}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{31c82895-56c9-4ddc-8449-582b58f3a6e6}</destination>
 		</relationship>

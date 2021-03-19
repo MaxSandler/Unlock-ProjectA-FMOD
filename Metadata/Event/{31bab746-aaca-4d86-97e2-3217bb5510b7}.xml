@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{31bab746-aaca-4d86-97e2-3217bb5510b7}">
 		<property name="name">
 			<value>Ghosty_WillOWispThrow</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{723e9c54-99a4-421d-a0b4-c0cf9517b2b9}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{fb5c16da-af27-4fc1-9d39-3afbc6ce74b4}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{5038816e-881c-480e-9792-7832e8305efe}" />
-	<object class="MarkerTrack" id="{aafbec4f-cfc5-4200-999a-87d7ab562b0f}" />
+	<object class="MarkerTrack" id="{aafbec4f-cfc5-4200-999a-87d7ab562b0f}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{5fea915b-2af4-4aed-ad64-c6a2c8d56fab}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{772f6d5b-9847-4e21-871f-806a4d2aa6dc}</destination>
 		</relationship>

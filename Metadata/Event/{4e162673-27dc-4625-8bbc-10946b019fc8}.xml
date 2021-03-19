@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{4e162673-27dc-4625-8bbc-10946b019fc8}">
 		<property name="name">
 			<value>Serena_StormsEdge</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{0bad8b0a-1711-43c1-9b02-919ec6aaa3e8}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{199d268e-4249-4f7e-a93f-ac17c2d6313f}</destination>
 		</relationship>
@@ -64,8 +67,15 @@
 			<value>3</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{14d1c4d4-ef13-4f24-bf45-f9da45f60258}" />
+	<object class="MarkerTrack" id="{14d1c4d4-ef13-4f24-bf45-f9da45f60258}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{f1c20216-5230-4dd2-8284-ee1b9c204316}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{38d4c477-1d0c-4b9e-b82f-5eff66061785}</destination>
 		</relationship>

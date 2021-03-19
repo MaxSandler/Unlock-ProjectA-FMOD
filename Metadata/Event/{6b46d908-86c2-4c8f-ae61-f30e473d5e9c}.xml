@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{6b46d908-86c2-4c8f-ae61-f30e473d5e9c}">
 		<property name="name">
 			<value>Serena_Attack</value>
@@ -44,6 +44,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{0cae37b7-185c-4b7c-8d56-41e6f46752e8}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{624d8166-a0aa-4550-8edc-ec71f61eb02e}</destination>
 		</relationship>
@@ -67,8 +70,15 @@
 			<value>3</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{330854fe-d391-4b6d-b3a0-7d133a466772}" />
+	<object class="MarkerTrack" id="{330854fe-d391-4b6d-b3a0-7d133a466772}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{5553873a-9bfe-4f14-9bdf-4e4625d83edd}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{9ea39720-1ccf-4460-bb42-57fd2af9a236}</destination>
 			<destination>{e7ef2081-1021-4f01-8be6-186c3985c4f1}</destination>
@@ -82,9 +92,9 @@
 	<object class="Timeline" id="{d354c6b5-723f-4bb6-b084-e9a83b9d2683}" />
 	<object class="ParameterProxy" id="{3198779f-626c-4c74-8a62-4db98c09bbf5}">
 		<relationship name="modules">
+			<destination>{6825919e-c795-4a5e-8ed1-029af6843cba}</destination>
 			<destination>{9ea39720-1ccf-4460-bb42-57fd2af9a236}</destination>
 			<destination>{e7ef2081-1021-4f01-8be6-186c3985c4f1}</destination>
-			<destination>{6825919e-c795-4a5e-8ed1-029af6843cba}</destination>
 			<destination>{b5883224-d4d6-472f-b76b-1c555d02d889}</destination>
 		</relationship>
 		<relationship name="preset">

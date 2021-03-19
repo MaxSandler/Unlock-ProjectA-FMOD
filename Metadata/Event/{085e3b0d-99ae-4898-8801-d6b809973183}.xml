@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{085e3b0d-99ae-4898-8801-d6b809973183}">
 		<property name="name">
 			<value>CatBandito_Teleport</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{fbae3530-03a6-4b4a-9e40-d256e097141f}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{9fc95333-47de-4410-80b9-d5e48a5f9145}</destination>
 		</relationship>
@@ -57,10 +60,17 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{3c32ab1f-d044-4c6d-8012-1a443cd356c3}" />
-	<object class="MarkerTrack" id="{1618f160-2233-4bdb-9c5e-b9f9084ef84b}" />
+	<object class="MarkerTrack" id="{1618f160-2233-4bdb-9c5e-b9f9084ef84b}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{25c2baf3-309f-476d-bac3-1bb464e39355}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
-			<destination>{0d8870a5-f288-4d29-8793-8c405de40033}</destination>
+			<destination>{1ff29c8f-6d05-44de-b595-f24d14abe5b8}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{f67a4945-d7e8-4f43-b1fc-b07c16e34d06}</destination>
@@ -68,7 +78,7 @@
 	</object>
 	<object class="Timeline" id="{4188cd20-70bc-480d-8593-d2930e635cf6}">
 		<relationship name="modules">
-			<destination>{0d8870a5-f288-4d29-8793-8c405de40033}</destination>
+			<destination>{1ff29c8f-6d05-44de-b595-f24d14abe5b8}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{9fc95333-47de-4410-80b9-d5e48a5f9145}">
@@ -88,12 +98,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{bc6f3308-363a-4d1f-a583-3ae85b28b48f}" />
-	<object class="SingleSound" id="{0d8870a5-f288-4d29-8793-8c405de40033}">
+	<object class="SingleSound" id="{1ff29c8f-6d05-44de-b595-f24d14abe5b8}">
 		<property name="length">
-			<value>1.7335208333333334</value>
+			<value>1.7252708333333333</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{4952cd34-6fc4-4f79-a2d2-9a84c039e269}</destination>
+			<destination>{78fa4076-f076-424a-9f90-3fbd48b96bc5}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{f67a4945-d7e8-4f43-b1fc-b07c16e34d06}">

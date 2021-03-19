@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{5c46ac07-58e6-447e-ad20-1b8d4efba0a5}">
 		<property name="name">
 			<value>Serena_UmbralTwin</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{3311badc-b2f5-4fb8-b289-d4b8e1bd5fb8}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{caae68cb-aa13-4b11-be5b-7b4e3e547da5}</destination>
 		</relationship>
@@ -64,8 +67,15 @@
 			<value>3</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{904f8ecc-56fd-4ba8-bac5-72213b5aaf7c}" />
+	<object class="MarkerTrack" id="{904f8ecc-56fd-4ba8-bac5-72213b5aaf7c}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{0bb70a17-2068-4bc4-870a-130dd23434c2}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{23124f46-76c8-4278-8117-0e02aba5f70c}</destination>
 		</relationship>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{f55c005c-8dbf-43e9-a297-8ec577576429}">
 		<property name="name">
 			<value>Serena_Loot_Rare</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{b951ece3-46ef-42be-baf4-9e25093c5847}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{f1d2a8cd-b94f-444f-b591-6a64ce14d10a}</destination>
 		</relationship>
@@ -64,8 +67,15 @@
 			<value>3</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{2637605f-fb3d-4684-981d-b5e3adf76f52}" />
+	<object class="MarkerTrack" id="{2637605f-fb3d-4684-981d-b5e3adf76f52}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{e2c83d99-baba-44d7-ab85-00d8e0d33d1f}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{f0e752ec-8265-4b8b-bfed-267407c90132}</destination>
 		</relationship>

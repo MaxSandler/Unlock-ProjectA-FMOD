@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{f0a9e925-1485-4e9d-81aa-c8e0ab28ccf7}">
 		<property name="name">
 			<value>Serena_HealthPotion</value>
@@ -42,6 +42,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{2cc4d788-fedf-4bcc-9b2e-c656d619b90b}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{75c6a231-474d-41d5-bcb2-106be4aad136}</destination>
 		</relationship>
@@ -58,8 +61,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{0d1ce6e7-cf89-47e4-85e1-a29509ec78c5}" />
-	<object class="MarkerTrack" id="{7e67a114-8032-44fa-8527-1b225d5ef47e}" />
+	<object class="MarkerTrack" id="{7e67a114-8032-44fa-8527-1b225d5ef47e}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{21230a08-fc3d-4b15-be01-c13f03a3bfea}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{76a4e566-fc5a-4d6a-9499-6098fafe23dd}</destination>
 		</relationship>
@@ -68,6 +78,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{8c45162d-16d9-4aaf-9800-dc5c840d42c3}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{07ea9174-7b44-4a5c-8d88-a777f37fe39d}</destination>
 		</relationship>

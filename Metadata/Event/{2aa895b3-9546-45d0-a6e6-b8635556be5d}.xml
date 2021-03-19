@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{2aa895b3-9546-45d0-a6e6-b8635556be5d}">
 		<property name="name">
 			<value>Chunky_ThrowMarshmellow</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{b9bf421b-b3f6-45c1-9d0d-5136bd02265b}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{a77e731a-9aac-4ef6-956b-3d1764dcb034}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{619ca6e3-bf4f-45ad-9de2-94722d0af414}" />
-	<object class="MarkerTrack" id="{eb87f9b8-5b13-4037-8e18-108339ae5886}" />
+	<object class="MarkerTrack" id="{eb87f9b8-5b13-4037-8e18-108339ae5886}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{ae179d6f-c130-4b3d-a2c5-9fb47aa7856f}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{a31d3d80-9b37-41cd-ae50-612374c64f1b}</destination>
 		</relationship>

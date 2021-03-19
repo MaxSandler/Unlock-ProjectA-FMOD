@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{6cf9c72f-5570-46f9-86e5-e220c56796d2}">
-		<property name="name">
-			<value>CatBandito_TripleStrike</value>
-		</property>
 		<property name="note">
 			<value>Unapproved Asset. May need to be updated later</value>
+		</property>
+		<property name="name">
+			<value>CatBandito_TripleStrike</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -44,6 +44,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{bd09aae2-2316-43b4-867a-009fcf7c6131}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{c6c15da2-ed70-44f3-a6bb-5cb6a7a2085f}</destination>
 		</relationship>
@@ -60,8 +63,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{6febe823-cd67-4966-a037-a4fb13dc42ad}" />
-	<object class="MarkerTrack" id="{181bd978-2f6d-4ff9-9530-dea552b36b54}" />
+	<object class="MarkerTrack" id="{181bd978-2f6d-4ff9-9530-dea552b36b54}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{36bdfa8d-a0c2-4ab7-8137-58cc3ad6d902}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{d54d9ede-7417-4f6f-9a19-ac2d0c0332c4}</destination>
 		</relationship>

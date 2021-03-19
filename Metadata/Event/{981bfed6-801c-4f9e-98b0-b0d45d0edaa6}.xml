@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{981bfed6-801c-4f9e-98b0-b0d45d0edaa6}">
 		<property name="name">
 			<value>Gargoyle_Threat_Attack</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{9f17d545-a89d-4e17-a6f3-92afdbdce40d}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{3b96dc6a-b444-423b-afac-722660f8d8ac}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{478c52c5-ccd9-4876-acfe-436e7f9ffae4}" />
-	<object class="MarkerTrack" id="{c89dd76c-96b8-4437-b4bc-7e4b973ce712}" />
+	<object class="MarkerTrack" id="{c89dd76c-96b8-4437-b4bc-7e4b973ce712}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{00db6847-b80e-4992-b601-e81dd519ad9d}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{45cf8856-6829-488d-9fe9-632c47d3da37}</destination>
 		</relationship>

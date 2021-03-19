@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="MixerGroup" id="{bd3f54ac-cd12-4889-9c7d-4297c550c2d2}">
 		<property name="volume">
 			<value>-4</value>
@@ -14,7 +14,7 @@
 			<destination>{e36d8a2a-df1d-4971-b82c-95c85cb783b4}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{10beaa72-70d2-496b-9837-2de81081311b}</destination>
+			<destination>{9ba78fad-56c9-479d-967d-6c3c72b601ef}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{e90544fa-1316-4dae-a525-24f9b33723b1}">

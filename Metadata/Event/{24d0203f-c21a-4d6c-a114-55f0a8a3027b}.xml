@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{24d0203f-c21a-4d6c-a114-55f0a8a3027b}">
 		<property name="name">
 			<value>mus_orch_main_theme</value>
@@ -43,6 +43,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{684d1af5-a62e-4b70-9580-26d08dafc3cf}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{7ee3c37f-b4fc-4635-b678-4520a5a0276f}</destination>
 		</relationship>
@@ -59,9 +62,20 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{ec2a9899-60c0-4d90-bd04-31006a8d675c}" />
-	<object class="MarkerTrack" id="{69edbb4a-f1c5-4a40-a38d-4ed0eb162d84}" />
-	<object class="MarkerTrack" id="{2cdd42c2-e4da-4cb8-8c56-543b1ce28ddd}" />
+	<object class="MarkerTrack" id="{69edbb4a-f1c5-4a40-a38d-4ed0eb162d84}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
+	<object class="MarkerTrack" id="{2cdd42c2-e4da-4cb8-8c56-543b1ce28ddd}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{0b9bd457-57a2-4fc8-bd9d-c436ad247265}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{81cc34d1-e3ba-4d92-a61c-26125be0bea8}</destination>
 		</relationship>
@@ -70,6 +84,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{c0dae6d4-5f3a-4b46-90e1-99f3f274beb0}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{e8b7d6ae-2395-4792-b617-779cc466ed16}</destination>
 		</relationship>

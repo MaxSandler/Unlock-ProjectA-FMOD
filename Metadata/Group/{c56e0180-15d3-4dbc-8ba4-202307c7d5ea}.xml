@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="MixerGroup" id="{c56e0180-15d3-4dbc-8ba4-202307c7d5ea}">
 		<property name="name">
 			<value>GeneralHogg</value>

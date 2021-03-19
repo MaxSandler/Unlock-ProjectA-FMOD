@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{ba4428ce-43f1-48dd-805b-6c23cc458e0c}">
 		<property name="name">
 			<value>Desmo_F34R</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{7872d3cd-2e8d-4688-a260-56661c3c3c46}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{cec03b9e-2e41-4ffe-8f14-838b61ba0046}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{161fd7a9-b2ca-4c40-b734-508c152234aa}" />
-	<object class="MarkerTrack" id="{73dd7e57-0fd2-4820-b958-fae7fad46f77}" />
+	<object class="MarkerTrack" id="{73dd7e57-0fd2-4820-b958-fae7fad46f77}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{91939e3e-63d6-435e-90ec-739368a3428f}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{1a01eb27-a1e9-4216-a924-04a6a034eab6}</destination>
 		</relationship>

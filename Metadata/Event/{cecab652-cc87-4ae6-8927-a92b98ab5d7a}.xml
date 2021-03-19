@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{cecab652-cc87-4ae6-8927-a92b98ab5d7a}">
 		<property name="name">
 			<value>Serena_Affect_Chill</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{0bac6c34-29d4-444f-81f8-db23e0819a24}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{39b7489f-2ca3-4d92-a973-4e5afa5877c0}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{7e491a47-d5e5-460d-a7f1-1e5360a4a354}" />
-	<object class="MarkerTrack" id="{55b03370-4d66-40b6-ae52-c840bd0f6bd8}" />
+	<object class="MarkerTrack" id="{55b03370-4d66-40b6-ae52-c840bd0f6bd8}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{6486e470-466a-4aaa-beb3-511af2ceb37f}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{5d4ef94b-6977-49a7-97e7-18380b8b00c1}</destination>
 		</relationship>

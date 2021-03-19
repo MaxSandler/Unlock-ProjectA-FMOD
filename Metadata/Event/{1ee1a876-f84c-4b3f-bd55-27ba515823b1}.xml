@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{1ee1a876-f84c-4b3f-bd55-27ba515823b1}">
 		<property name="name">
 			<value>Flamegore__SuperNova</value>
@@ -60,7 +60,7 @@
 	<object class="MarkerTrack" id="{19ee6748-004f-4706-a01a-b84ca84dbd5a}" />
 	<object class="GroupTrack" id="{5ffcd111-e04b-4063-8c72-f84217840eb3}">
 		<relationship name="modules">
-			<destination>{4eee712e-0eb5-40df-8bc7-a9e58b60fa49}</destination>
+			<destination>{e1d9f19f-4fd2-4561-a56e-1282acbbef73}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{a29717ef-a8d3-446e-a7c4-d781db43ccad}</destination>
@@ -68,7 +68,7 @@
 	</object>
 	<object class="Timeline" id="{e3edfef7-d3e2-43b6-a17a-42c7697e7280}">
 		<relationship name="modules">
-			<destination>{4eee712e-0eb5-40df-8bc7-a9e58b60fa49}</destination>
+			<destination>{e1d9f19f-4fd2-4561-a56e-1282acbbef73}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{9b1964d7-4764-4783-b298-c196b4b32581}">
@@ -88,12 +88,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{20a8c9a0-0113-4fea-b033-27fe69f8ab4e}" />
-	<object class="SingleSound" id="{4eee712e-0eb5-40df-8bc7-a9e58b60fa49}">
+	<object class="SingleSound" id="{e1d9f19f-4fd2-4561-a56e-1282acbbef73}">
 		<property name="length">
-			<value>10.569291666666667</value>
+			<value>8.7200208333333329</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{000686d5-fa61-45d0-a9aa-6a2e9242250f}</destination>
+			<destination>{f0ff87a6-97d6-4ff7-8385-b87764d54315}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{a29717ef-a8d3-446e-a7c4-d781db43ccad}">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{91cd8456-68a8-41ae-bfac-83ca3b28b922}">
 		<property name="name">
 			<value>Frostbite_Flurry_Charge</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{c3a9394b-a765-4ffc-98cb-ddc81b5cb033}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{e47accf9-f4b3-4a39-9888-245978c2e016}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{4e243c7b-8fce-437f-b5ab-4cf9cb6b9d5e}" />
-	<object class="MarkerTrack" id="{0ad3f4b5-7eb1-4856-9899-1c2e00e92073}" />
+	<object class="MarkerTrack" id="{0ad3f4b5-7eb1-4856-9899-1c2e00e92073}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{43ef7608-e794-4778-a8d3-b9ea353ad2d4}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{06e8ffa9-39dc-4fff-8556-d951623d7708}</destination>
 		</relationship>

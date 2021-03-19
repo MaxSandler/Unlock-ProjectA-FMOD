@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{51617dce-a325-4952-8039-fa762a6c64c4}">
 		<property name="name">
 			<value>Foxy_FurballSpit</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{5b4f9833-cb21-403d-9673-91ffc1a3f524}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{7ff1b9d0-defd-4bb7-b45d-2a28a7b27070}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{73f8248c-9e33-4ebd-aa8e-2537bcdc054b}" />
-	<object class="MarkerTrack" id="{b08f368b-a3d3-49a1-a635-eb1a94d3e7ef}" />
+	<object class="MarkerTrack" id="{b08f368b-a3d3-49a1-a635-eb1a94d3e7ef}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{597a9196-5a66-427d-9f0a-0f08b398fd52}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{f13a631e-b7a9-4c1a-8b42-4572d42e83d0}</destination>
 		</relationship>

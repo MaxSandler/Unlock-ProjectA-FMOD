@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{24963b59-3541-4f72-bc07-dd5460c196b3}">
 		<property name="name">
 			<value>Flamegore_Basic_Attack_Range</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{78e46bac-68f3-4f80-b737-32e50add07d5}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{d4f26c7f-a481-4d4a-8f07-0a2627797a53}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{de84fda8-4a54-4988-87a6-8ad318641603}" />
-	<object class="MarkerTrack" id="{7ee3dca0-9391-41b8-ab8f-bd3e4ba26134}" />
+	<object class="MarkerTrack" id="{7ee3dca0-9391-41b8-ab8f-bd3e4ba26134}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{b1d2b3a8-3618-42db-9fb6-e8f6d0a9ddce}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{cd5461ab-0bf7-4aa9-ab48-59e1aa630907}</destination>
 		</relationship>

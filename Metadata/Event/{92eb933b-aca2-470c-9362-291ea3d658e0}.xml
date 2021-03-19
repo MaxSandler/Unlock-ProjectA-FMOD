@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{92eb933b-aca2-470c-9362-291ea3d658e0}">
 		<property name="name">
 			<value>Baty_WingFlap_Heavy</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{15a48cbf-35ee-4fd8-b3dd-bf90094c7d3b}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{3bf5b280-5820-409c-9cd1-c05419075076}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{4d3d6ea3-a1a4-481a-8dec-769679739c01}" />
-	<object class="MarkerTrack" id="{e8cb03d3-a1be-4f65-ad6e-5ff797177af9}" />
+	<object class="MarkerTrack" id="{e8cb03d3-a1be-4f65-ad6e-5ff797177af9}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{3bbb2e0f-73c2-4ced-a0fe-e5001b4f1954}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{214ff242-4db5-4542-8042-6834401b72f2}</destination>
 		</relationship>

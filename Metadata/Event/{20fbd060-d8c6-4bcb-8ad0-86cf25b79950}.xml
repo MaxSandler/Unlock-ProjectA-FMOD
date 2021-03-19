@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{20fbd060-d8c6-4bcb-8ad0-86cf25b79950}">
 		<property name="name">
 			<value>Serena_Affect_Blast</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{86b875e8-8195-4fd5-aaff-fb821a331bf8}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{3af6dd0c-3f62-4aa4-b6a1-097bbead0e4c}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{b000f21c-8d43-44c8-af6a-6b1edd004651}" />
-	<object class="MarkerTrack" id="{52625d77-36b5-4216-99e8-b3997ab67828}" />
+	<object class="MarkerTrack" id="{52625d77-36b5-4216-99e8-b3997ab67828}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{d7c91b79-c767-4247-9a6b-37f347f46503}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{f0ab73d4-14b3-4baf-9687-17adf36b8bc6}</destination>
 		</relationship>

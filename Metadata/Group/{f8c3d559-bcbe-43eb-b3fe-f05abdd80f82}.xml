@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="MixerGroup" id="{f8c3d559-bcbe-43eb-b3fe-f05abdd80f82}">
 		<property name="name">
 			<value>VO_Clink</value>

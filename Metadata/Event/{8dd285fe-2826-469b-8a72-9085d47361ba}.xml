@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{8dd285fe-2826-469b-8a72-9085d47361ba}">
 		<property name="name">
 			<value>Porky_Headbutt</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{461eee89-39d5-48c5-9d73-f2afedb0974d}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{af5c82b5-de22-4874-89f3-2dfd713b3d98}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{e3f11636-ccdd-4de3-ab19-97ca8740553c}" />
-	<object class="MarkerTrack" id="{d6cc5a96-e61a-4037-ab42-e34b5c0279a1}" />
+	<object class="MarkerTrack" id="{d6cc5a96-e61a-4037-ab42-e34b5c0279a1}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{1307096f-79ff-423c-b58b-f2130abf7ffe}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{11dbc6ea-7d17-4d64-928e-b5770f8a0fb0}</destination>
 		</relationship>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{3963a79a-1d6d-4cca-b289-5bfbe3f6cf90}">
 		<property name="name">
 			<value>LordKarkadann_MarsSmash</value>
@@ -42,6 +42,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{d126eb4c-6662-4004-b2e5-beb0fa54d642}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{971e38aa-bf1a-445f-8c2a-b8ed4d98c424}</destination>
 		</relationship>
@@ -58,8 +61,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{072152da-032d-4851-8dd5-5cec2795d058}" />
-	<object class="MarkerTrack" id="{815fbf11-fa2c-4342-b70c-f7fcb66f9daf}" />
+	<object class="MarkerTrack" id="{815fbf11-fa2c-4342-b70c-f7fcb66f9daf}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{63eb9702-a6d8-4197-81b0-c1513c0ae840}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{348603ed-f908-430e-accd-ace2e733f283}</destination>
 		</relationship>
@@ -68,6 +78,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{fed175d5-be9c-4bcf-979c-a7d0c63e67d1}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{e14fdcf5-278a-4b37-ab14-0be4f2c29663}</destination>
 		</relationship>

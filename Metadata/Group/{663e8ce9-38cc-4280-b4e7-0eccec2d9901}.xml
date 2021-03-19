@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="MixerGroup" id="{663e8ce9-38cc-4280-b4e7-0eccec2d9901}">
 		<property name="name">
 			<value>SuperBosses</value>

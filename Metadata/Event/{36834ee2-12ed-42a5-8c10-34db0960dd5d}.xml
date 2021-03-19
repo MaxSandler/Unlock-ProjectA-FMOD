@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{36834ee2-12ed-42a5-8c10-34db0960dd5d}">
 		<property name="name">
 			<value>Baty_Bite</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{91f807eb-09b8-4df4-ab5a-7ccdf791c0af}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{d4b4a2f1-23f5-4cd1-81ab-02c166f0df12}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{acb776f7-4fc7-4b09-8dbb-606d9cce6155}" />
-	<object class="MarkerTrack" id="{eaaa4253-d525-4f68-88a7-2e607ece56df}" />
+	<object class="MarkerTrack" id="{eaaa4253-d525-4f68-88a7-2e607ece56df}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{2ac067f7-d4f1-4749-b96c-6b53343e382f}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{ff1089db-0b0a-4183-a132-50f7d758b987}</destination>
 		</relationship>

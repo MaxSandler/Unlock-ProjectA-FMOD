@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{96c311a8-f500-43e7-9a1d-7ea3aab540a3}">
 		<property name="name">
 			<value>Owly_WingFlap</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{c59e488e-7255-4630-91d5-589c7902b4f3}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{673c2330-76c2-4f19-91aa-841ab5db58ab}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{0e6a0b9d-64f9-4179-9d69-f99e362d57d1}" />
-	<object class="MarkerTrack" id="{938c6ae4-3462-458c-8c78-7e030269601c}" />
+	<object class="MarkerTrack" id="{938c6ae4-3462-458c-8c78-7e030269601c}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{d427aaa8-e185-4ccf-bb68-a831f8457fac}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{2fffeb27-c57e-436c-8312-cb2a36e603cc}</destination>
 		</relationship>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{a21e41b8-11a4-47e5-9190-6669968cf7c5}">
 		<property name="name">
 			<value>Flamegore_Meteor</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{713dff38-86fe-4131-88d2-8115fd4181a9}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{b7d95892-0e4c-4594-b458-a1f97db5f70d}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{2b76344c-5867-4b13-a3eb-f4460f58f0a4}" />
-	<object class="MarkerTrack" id="{bd90b95e-d89a-4ef6-be7c-6ba0d03ba373}" />
+	<object class="MarkerTrack" id="{bd90b95e-d89a-4ef6-be7c-6ba0d03ba373}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{74e98fdd-7ff0-42b2-850f-c3ae88e6a990}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{93ad8c9a-0f6c-4e97-a71e-612a5dde9aec}</destination>
 		</relationship>

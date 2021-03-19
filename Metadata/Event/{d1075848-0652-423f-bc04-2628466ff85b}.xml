@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{d1075848-0652-423f-bc04-2628466ff85b}">
 		<property name="name">
 			<value>UI_SpawnJoystick</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{489fd7d4-233e-4a84-88bb-da5f0e771d13}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{9bd9f3f8-1243-47b1-a994-a926913b9163}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{ab335923-1143-4653-9f1f-6cc77dd1a86e}" />
-	<object class="MarkerTrack" id="{1bcf42c7-1f3f-44fb-8100-414761acf253}" />
+	<object class="MarkerTrack" id="{1bcf42c7-1f3f-44fb-8100-414761acf253}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{e87e3841-f606-4ab2-af4c-8fdc24be5f98}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{2fbc5e44-4fd3-4a9b-be25-616958cc6cab}</destination>
 		</relationship>

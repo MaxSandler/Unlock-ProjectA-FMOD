@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{3d83bcb7-9920-446b-8f16-acbca29fd1b5}">
 		<property name="name">
 			<value>Frostbite_Blizzard</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{bbd53393-9fa7-4659-a23b-9b492db3c520}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{556d8996-e1c3-47eb-8974-a965dc094146}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{44c4c70c-b93f-4654-a63b-c226e02d5872}" />
-	<object class="MarkerTrack" id="{c26d31ca-c74d-47a1-8f65-f2b2c2db4b65}" />
+	<object class="MarkerTrack" id="{c26d31ca-c74d-47a1-8f65-f2b2c2db4b65}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{b70e1d3e-6b4e-4d0c-ac35-563501e04436}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{0fca37db-8f66-44a6-9442-d362e187a47a}</destination>
 		</relationship>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{4e1591e8-bcf9-460b-be36-47a0a2f22755}">
 		<property name="name">
 			<value>Flamegore_Death</value>
@@ -60,7 +60,7 @@
 	<object class="MarkerTrack" id="{cf3df540-f610-4f26-ad6a-f312a07dace5}" />
 	<object class="GroupTrack" id="{42c57969-7b19-4cc8-a8d2-0d748ef8f0f4}">
 		<relationship name="modules">
-			<destination>{62469657-403e-406a-bcde-c2810f33bc3a}</destination>
+			<destination>{d4af2286-ccb3-4a76-bba2-16a13c0d4525}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{cb251ec9-1fe7-4006-8560-4fbdccce889b}</destination>
@@ -68,7 +68,7 @@
 	</object>
 	<object class="Timeline" id="{b1377117-6d72-4fcf-8153-e6496ff2433c}">
 		<relationship name="modules">
-			<destination>{62469657-403e-406a-bcde-c2810f33bc3a}</destination>
+			<destination>{d4af2286-ccb3-4a76-bba2-16a13c0d4525}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{b093bbe0-8e1e-4923-b134-a685eb0b8695}">
@@ -88,12 +88,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1673f0a3-4ad6-45aa-8011-104e53cd2752}" />
-	<object class="SingleSound" id="{62469657-403e-406a-bcde-c2810f33bc3a}">
+	<object class="SingleSound" id="{d4af2286-ccb3-4a76-bba2-16a13c0d4525}">
 		<property name="length">
-			<value>3.3864999999999998</value>
+			<value>4.316208333333333</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{c4579ff4-8df6-49d0-9a41-183d22d83f29}</destination>
+			<destination>{44d5a0ad-78b9-4f72-8960-be90fc6ed29d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{cb251ec9-1fe7-4006-8560-4fbdccce889b}">

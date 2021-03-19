@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{1ecf6435-181d-4aff-aafe-4ca2cc7b77df}">
 		<property name="name">
 			<value>Birdy_Threat_Attack</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{74cba78b-c815-4c0e-af2a-b4b3a1cd82f7}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{f3d8d4da-8f80-4f77-a136-0c7e5427e8de}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{800b1f7c-ea12-42da-90f6-b58d928196bf}" />
-	<object class="MarkerTrack" id="{5fe12dc0-0ea1-484f-aaf7-c01fbd5edc9f}" />
+	<object class="MarkerTrack" id="{5fe12dc0-0ea1-484f-aaf7-c01fbd5edc9f}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{4c589ea2-0d52-42d7-8c06-d45098299474}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{71dfedbc-c151-4904-90ee-f1d5c167d72d}</destination>
 		</relationship>

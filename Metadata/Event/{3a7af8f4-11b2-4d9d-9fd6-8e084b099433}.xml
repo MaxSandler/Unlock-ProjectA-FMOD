@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{3a7af8f4-11b2-4d9d-9fd6-8e084b099433}">
 		<property name="name">
 			<value>Serena_Ability_Flurry</value>
@@ -42,6 +42,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{029f4d67-5cd9-4c34-a3ad-fea48d6e344b}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{bbdca763-9d4a-425c-b8be-d9834308bc43}</destination>
 		</relationship>
@@ -58,8 +61,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{e9845424-c001-4576-85b9-af9074747844}" />
-	<object class="MarkerTrack" id="{4e1018c7-7c9b-4bed-8d39-02771feb340d}" />
+	<object class="MarkerTrack" id="{4e1018c7-7c9b-4bed-8d39-02771feb340d}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{431475e7-1d19-4404-acb2-a65ed37d9a9d}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{da5cb7d5-aae3-41d9-ab73-92bd5078ce80}</destination>
 		</relationship>
@@ -68,6 +78,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{a6e877fa-e506-4f7e-a9e2-4a796844da75}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{4e5210ba-b5b0-41e1-a8e3-04aa266cc569}</destination>
 		</relationship>
