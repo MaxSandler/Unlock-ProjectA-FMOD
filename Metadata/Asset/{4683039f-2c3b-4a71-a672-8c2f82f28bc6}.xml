@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EncodableAsset" id="{4683039f-2c3b-4a71-a672-8c2f82f28bc6}">
+		<property name="assetPath">
+			<value>Serena/Serena_Ability_SwordSlam/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{26a7d39c-59b2-4e2e-90ea-52533bc18136}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -51,9 +51,6 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{a27ef09d-884f-448a-85b0-958dc9bc18e0}">
-		<property name="uiTrackHeight">
-			<value>28</value>
-		</property>
 		<relationship name="modules">
 			<destination>{4b11bbda-1412-4fff-887f-5de4cbeb1b0e}</destination>
 			<destination>{5108a5db-d8e2-4f4e-83eb-74987dad6eee}</destination>
@@ -80,40 +77,13 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{c2e8fc36-d64c-4d31-8c04-24031ecbc2d2}" />
-	<object class="MarkerTrack" id="{a88fba5e-7907-4260-8539-e0eb1ee94c48}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
-	</object>
-	<object class="MarkerTrack" id="{dd0765c3-9175-4f07-970c-cf0a97cc5fa9}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
-	</object>
-	<object class="MarkerTrack" id="{1672c865-779f-4303-ac2b-2af449903b09}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
-	</object>
-	<object class="MarkerTrack" id="{f41e3e48-7dc8-4e22-9b41-0390ab2b5cfd}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
-	</object>
-	<object class="MarkerTrack" id="{86d90ff4-5c98-43bb-b00c-5e41a1feeb62}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
-	</object>
-	<object class="MarkerTrack" id="{3f83e16b-17d6-4a9c-bea5-21cb17f2628b}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
-	</object>
+	<object class="MarkerTrack" id="{a88fba5e-7907-4260-8539-e0eb1ee94c48}" />
+	<object class="MarkerTrack" id="{dd0765c3-9175-4f07-970c-cf0a97cc5fa9}" />
+	<object class="MarkerTrack" id="{1672c865-779f-4303-ac2b-2af449903b09}" />
+	<object class="MarkerTrack" id="{f41e3e48-7dc8-4e22-9b41-0390ab2b5cfd}" />
+	<object class="MarkerTrack" id="{86d90ff4-5c98-43bb-b00c-5e41a1feeb62}" />
+	<object class="MarkerTrack" id="{3f83e16b-17d6-4a9c-bea5-21cb17f2628b}" />
 	<object class="GroupTrack" id="{1e6d067a-3c30-4049-bc2b-1331391c26fe}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
 		<relationship name="modules">
 			<destination>{3d211d02-bf86-45a2-877c-8848ee8db474}</destination>
 			<destination>{6a6749a4-21b1-4b75-bfe3-fa846f0777bd}</destination>
@@ -130,9 +100,6 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{725e8310-315d-4c94-ac60-c815859867bb}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
 		<relationship name="modules">
 			<destination>{50b0d299-43a4-4f9b-95cd-ba234ac1bc46}</destination>
 			<destination>{25b6defa-0c9a-4380-a306-2e912519bd21}</destination>
@@ -149,9 +116,6 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{af3047c2-167c-4a54-a1b5-05ddc91a8d15}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
 		<relationship name="modules">
 			<destination>{da92072e-5401-4a71-bb14-b638152fd70b}</destination>
 			<destination>{4bb2e6cd-9687-4c5c-91b3-c53b0c96aa01}</destination>
@@ -168,9 +132,6 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{abb2cb96-4913-4cfd-9dad-34d8bc0dd57f}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
 		<relationship name="modules">
 			<destination>{94c8a582-0024-4593-837d-c174019ef18b}</destination>
 			<destination>{a104ec71-9945-481f-b59c-66d2971c80cd}</destination>
@@ -188,9 +149,6 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{146242d7-cab0-4446-a808-e1a4fe716ee1}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
 		<relationship name="modules">
 			<destination>{97e5e915-1a40-4ede-87e1-4ee2ae0057f3}</destination>
 			<destination>{a94b20e6-d9f3-4803-90ad-45b30d33446c}</destination>
@@ -207,9 +165,6 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{8f10e4b5-5ebd-44ca-8d60-0d095e1d4e3c}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
 		<relationship name="modules">
 			<destination>{3fbab51e-f99d-4968-9cb4-987e0baffefa}</destination>
 			<destination>{32724c5b-ffa7-41a1-8e0e-f8a3fc9a67fd}</destination>
@@ -861,6 +816,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{1955fced-a1f7-4c34-8a0c-b5228bdab952}">
+		<property name="volume">
+			<value>5</value>
+		</property>
 		<property name="name">
 			<value>Superboss Transitions</value>
 		</property>
