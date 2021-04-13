@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Mixer" id="{6397cd5e-9628-46a7-8769-634d42b463fb}">
 		<relationship name="uiMixerView">
 			<destination>{e98902a5-584b-4ef3-a2c4-b5392a4a58e0}</destination>
