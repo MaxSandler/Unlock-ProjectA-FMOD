@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="AudioFile" id="{6fff6bce-0405-4305-bc3b-8a7db5a03087}">
 		<property name="assetPath">
 			<value>UI/UI_SpawnJoystick.wav</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
