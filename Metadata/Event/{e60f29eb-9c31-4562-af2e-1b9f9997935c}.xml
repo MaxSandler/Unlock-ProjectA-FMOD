@@ -46,9 +46,6 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{3b161954-0ef0-48f0-814e-99a7e854b33e}">
-		<property name="uiTrackHeight">
-			<value>28</value>
-		</property>
 		<relationship name="mixerGroup">
 			<destination>{7f2fcf00-8c79-4c08-812d-febbef8e866b}</destination>
 		</relationship>
@@ -65,15 +62,8 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{70832d37-f0d8-4331-95c7-f5d2126821e8}" />
-	<object class="MarkerTrack" id="{777fe7da-94f3-4cbd-a471-4fe05d731d74}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
-	</object>
+	<object class="MarkerTrack" id="{777fe7da-94f3-4cbd-a471-4fe05d731d74}" />
 	<object class="GroupTrack" id="{5f5a285b-a405-4757-8585-418aa4086476}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
 		<relationship name="modules">
 			<destination>{42b04f93-d178-4599-a7d1-1c0592318eed}</destination>
 		</relationship>
@@ -82,9 +72,6 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{1bad7425-7339-4cdf-beb1-e878b67bf26a}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
 		<relationship name="modules">
 			<destination>{399dc4a8-fd45-4e5e-ac1e-03111e583e05}</destination>
 			<destination>{457a5b9a-61b2-4a52-bbd9-e2ab0ea780d4}</destination>
@@ -94,9 +81,6 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{5325c6a3-1c59-4e3a-8217-0f7ee2536199}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
 		<relationship name="modules">
 			<destination>{a5cce7a3-c5d4-40e9-96c1-c0530e8cee97}</destination>
 			<destination>{dabf635b-f685-43fd-b09f-023fbf74c2f6}</destination>
@@ -106,9 +90,6 @@
 		</relationship>
 	</object>
 	<object class="ReturnTrack" id="{dbae1651-65a4-4d42-bc18-562a67e83657}">
-		<property name="uiTrackHeight">
-			<value>28</value>
-		</property>
 		<relationship name="automationTracks">
 			<destination>{0bd959f5-102c-460f-a417-a349419dafcd}</destination>
 		</relationship>
@@ -266,9 +247,6 @@
 		</relationship>
 	</object>
 	<object class="AutomationTrack" id="{0bd959f5-102c-460f-a417-a349419dafcd}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
 		<relationship name="automator">
 			<destination>{cc5b6e19-2165-4576-bc3e-4b41826348ad}</destination>
 		</relationship>
@@ -395,6 +373,9 @@
 	<object class="MixerBusPanner" id="{dcbd3503-00c8-4597-aafd-9712c012a5ef}" />
 	<object class="MixerBusFader" id="{fa0020a9-d3bd-44b6-a40f-d4d5bcdbc509}" />
 	<object class="SpatialiserEffect" id="{90b03a58-2396-4554-bfab-285a9070dee6}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="distanceRolloffType">
 			<value>1</value>
 		</property>

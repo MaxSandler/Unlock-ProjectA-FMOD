@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
-	<object class="AudioFile" id="{26189bb9-2e9d-4394-a9fc-3d2a9512a7ea}">
+	<object class="AudioFile" id="{a3eb052a-1dc1-45df-bb7b-03f44084ecc4}">
 		<property name="assetPath">
-			<value>UI/UI__Boss_Button_Title_01.wav</value>
+			<value>UI/UI__SuperBoss_Button_Appear_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>3.0918125000000001</value>
+			<value>2.9013333333333335</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{26a7d39c-59b2-4e2e-90ea-52533bc18136}</destination>
