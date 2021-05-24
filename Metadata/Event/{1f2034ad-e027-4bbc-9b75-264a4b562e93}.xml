@@ -5,7 +5,7 @@
 			<value>UI_Hit_Impact</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{11b658aa-75dc-4cf3-af98-498bec1040e2}</destination>
@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{8fa76ff2-5e85-40ef-bd6c-6880d4b8699b}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{95645109-9a06-418c-9b8e-8d27ec7f9e30}</destination>
 		</relationship>
@@ -120,6 +123,7 @@
 	<object class="MixerBusEffectChain" id="{95645109-9a06-418c-9b8e-8d27ec7f9e30}">
 		<relationship name="effects">
 			<destination>{a217391f-4ce3-483d-bf9c-0019ebdbf75e}</destination>
+			<destination>{167f46e8-68dd-412b-bf2f-f29012303685}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{36715e66-51b3-464a-8b66-b1a7c39c5077}" />
@@ -156,5 +160,13 @@
 	</object>
 	<object class="MixerBusPanner" id="{5125ee39-60d0-40c2-b746-c39bab6d580f}" />
 	<object class="MixerBusFader" id="{a217391f-4ce3-483d-bf9c-0019ebdbf75e}" />
+	<object class="SpatialiserEffect" id="{167f46e8-68dd-412b-bf2f-f29012303685}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="maximumDistance">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{62337096-8293-4297-afd6-250f9af22f33}" />
 </objects>
